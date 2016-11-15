@@ -1,0 +1,17 @@
+<div class="yoda-componentsPlayground container" ng-if="params">
+
+	<h2>Component playground</h2>
+
+	<div ng-repeat="(label, item) in params">
+
+		<div ng-switch="getType(item.data)">
+
+			<div ng-switch-when="string">
+				{{ label }}
+				<input ng-model="item.data">
+			</div>
+
+		</div>
+
+	</div>
+</div>

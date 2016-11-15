@@ -1,0 +1,10 @@
+<div class="appname-progress-bar container-fluid">
+
+    <ul class="row">
+        <li class="step" ng-class="{'is-active' : (step === $index + 1)}" ng-repeat="stepLabel in steps">
+            <div class="step-number"><span class='hidden-xs'>{{:: cmLabels.step}} </span>{{ $index + 1 }}.</div>
+            <div class="step-name">{{ stepLabel }}</div>
+        </li>
+    </ul>
+
+</div>

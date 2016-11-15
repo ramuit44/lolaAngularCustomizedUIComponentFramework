@@ -1,0 +1,7 @@
+<div class="appname-modal" aria-hidden="!vm.status[vm.name]">
+    <!--appname-trap -->
+    <div ng-class="{'is-open': vm.status[vm.name]}" class="modal" aria-labelledby="modal-header-title" aria-describedby="modal-body">
+        <ng-transclude></ng-transclude>
+    </div>
+    <div ng-click="vm.close()" ng-show="vm.status[vm.name]" class="appname-modal__backdrop modal-backdrop"></div>
+</div>

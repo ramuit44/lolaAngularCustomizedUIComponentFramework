@@ -1,0 +1,45 @@
+@import (reference) "../../appname.app/index.less";
+.appname-popover {
+    &.popover-wrapper .popover-popup.popover-left {
+        left: -120px;
+        &:before {
+            left: 266px;
+        }
+        &:after {
+            left: 266px;
+        }
+    }
+    &.popover-wrapper .popover-popup.popover-right {
+        left: 120px;
+        &:before {
+            left: 30px;
+        }
+        &:after {
+            left: 30px;
+        }
+    }
+    &.popover-wrapper .popover-popup.popover-bottom {
+        bottom: -164px;
+        margin-top: 13px;
+        &:before {
+            bottom: 130px;
+            border-bottom: 18px solid #fff;
+            border-top: none;
+            border-bottom-color: @color-G;
+            border-top-color: none;
+            z-index: 106
+        }
+        &:after {
+            bottom: 132px;
+            border-bottom: 18px solid #fff;
+            border-top: none;
+        }
+    }
+    .popover-popup {
+        visibility: visible;
+        display: none;
+    }
+    &.is-open .popover-popup {
+        display: block;
+    }
+}

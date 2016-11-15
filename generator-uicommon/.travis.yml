@@ -1,0 +1,8 @@
+sudo: false
+language: node_js
+node_js:
+  - 'iojs'
+  - '0.12'
+  - '0.10'
+notifications:
+  slack: yo-da:W4HtLCOtF2wd1yhMUSA8NUGf

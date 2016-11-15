@@ -1,0 +1,61 @@
+<div class="gui-register">
+
+	<h2 class="body-font">Register form</h2>
+	<form name="registerForm" class="gui-register-form" ng-submit="ctrl.handleSubmit(registerForm.$valid, ctrl.formData)" novalidate>
+
+		<!-- <p ng-if="registerForm.$submitted && registerForm.$error">
+			Please fix the errors in your form:
+		</p> -->
+
+		<gui-alert close-button="false" type="warning" ng-show="registerForm.$submitted && registerForm.$error" data-grunticon-embed>
+			Please fix the errors in your form
+		</gui-alert>
+
+		<gui-input-row
+		label="First name"
+		field-model="ctrl.formData.firstName"
+		field-type="text"
+		field-id="registerForm-firstName"
+		field-placeholder="enter your first name"
+		field-required="true">
+		<!-- <gui-popover></gui-popover> -->
+		</gui-input-row>
+
+		<gui-input-row
+		label="Last name"
+		field-model="ctrl.formData.lastName"
+		field-type="text"
+		field-id="registerForm-lastName"
+		field-required="true">
+		</gui-input-row>
+
+		<gui-input-row
+		label="Email"
+		field-model="ctrl.formData.email1"
+		field-type="email"
+		field-id="registerForm-email1"
+		field-required="false">
+		</gui-input-row>
+
+		<gui-input-row
+		label="Gender"
+		field-model="ctrl.formData.gender"
+		field-type="radio"
+		field-options="ctrl.genders"
+		field-id="registerForm-gender"
+		field-required="true">
+		</gui-input-row>
+
+		<button class="btn btn-primary gui-register-submit">Submit</button>
+
+	</form>
+
+	<div>
+		<h3>
+			data submited
+		</h3>
+		{{ dataSubmitted }}
+	</div>
+
+
+</div>

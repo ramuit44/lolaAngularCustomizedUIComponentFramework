@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href=".././app/build/appname.common.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src=".././app/build/appname.common.js"></script>
+
+	<script type="text/javascript">
+	var myApp = angular.module('myApp', ['appname.common']);
+	</script>
+
+</head>
+<body ng-app="myApp">
+
+	<main class="container">
+		<h1 class="body-font">Tabs </h1>
+
+		<uib-tabset class="tabcordion tabcordion-tabs" justified="true">
+			<uib-tab ng-repeat="tab in mock.tabs.value" heading="{{tab.title}}">{{tab.content}}</uib-tab>
+		</uib-tabset>
+
+	</main>
+
+</body>
+</html>

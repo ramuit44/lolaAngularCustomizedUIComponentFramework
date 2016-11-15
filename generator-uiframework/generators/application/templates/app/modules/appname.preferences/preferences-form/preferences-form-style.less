@@ -1,0 +1,49 @@
+@import (reference) "../appname.app/index.less";
+.appname-preferences-form {
+    @label-font-size: 16px;
+    .input-group-addon {
+        font-weight: bold;
+    }
+    &__row {
+        padding: 6px;
+        &__fieldset {
+            vertical-align: top;
+            display: inline-block;
+            float: none;
+            /* reset the text-align */
+            text-align: left;
+            /* inline-block space fix */
+            margin-right: -4px;
+            & .input-group {
+                width: 100%;
+                & .input-group-input {
+                    width: calc(100% ~"-" 45px);
+                }
+                & .full-width {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &__title {
+        font-weight: @font-weight-normal;
+    }
+    &__label {
+        font-size: @label-font-size;
+        font-weight: bold;
+        &:after {
+            content: '*';
+            //.mandatory();
+            vertical-align: top;
+        }
+    }
+    &__submit {
+        margin: 20px auto;
+        &__btn {
+            width: 100%;
+        }
+    }
+    .has-warning .input-group .input-group-input:focus {
+        border-color: @color-Warning;
+    }
+}

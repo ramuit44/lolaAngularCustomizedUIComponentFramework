@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href=".././app/build/appname.common.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src=".././app/build/appname.common.js"></script>
+
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', ['appname.common']);
+
+    </script>
+
+</head>
+
+<body ng-app="myApp">
+
+    <main class="container">
+        <h1 class="body-font"> Modal </h1>
+        <appname-modal ng-if="mock.isOpen.value" header="{{mock.header.value}}" is-static="mock.isStatic.value" is-open="mock.isOpen.value">
+            <div>This is Modal body</div>
+        </appname-modal>
+    </main>
+
+</body>
+
+</html>

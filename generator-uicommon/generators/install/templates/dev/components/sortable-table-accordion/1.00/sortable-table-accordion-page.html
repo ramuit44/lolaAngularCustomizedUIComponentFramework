@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href=".././app/build/appname.common.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src=".././app/build/appname.common.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['appname.common']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1 class="body-font"> Directive: sortable-table-accordion </h1>
+      <appname-sortable-table-accordion headers="mock.dataHeaders" list="mock.dataList" table-title="Customers List" pagination="true" page-size="7" sortable="true" collapsible="true"></appname-sortable-table-accordion>
+   </main>
+
+</body>
+</html>

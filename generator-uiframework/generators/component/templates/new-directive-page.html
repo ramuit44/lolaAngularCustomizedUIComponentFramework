@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../appFolder/distFolder/prefix.moduleName.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../appFolder/distFolder/prefix.moduleName.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['prefix.moduleName']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1 class="body-font"> Directive: new-directive </h1>
+      <prefix-new-directive my-param="{{mock.simple_string.value}}"></prefix-new-directive>
+   </main>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<div class="yoda-componentCodeEditor container">
+
+	<!-- Page Editor -->
+	<div>
+		<div class="yoda-componentCodeEditor-header">
+			<h2 class="yoda-componentCodeEditor-title body-font">Page Editor</h2>
+
+			<div class="yoda-componentCodeEditor-header-btn-wrapper">
+				<button type="button" class="yoda-componentCodeEditor-btn btn btn-hero" ng-click="run()">Run</button>
+				<button type="button" class="yoda-componentCodeEditor-btn btn btn-faint" ng-click="reset()">Reset</button>
+			</div>
+
+		</div>
+
+		<div class="yoda-componentCodeEditor-html" ng-model="selectedComponent" ui-ace="{
+			mode: 'html'
+		}"></div>
+	</div>
+
+	<!-- Scope Editor -->
+	<!-- <div>
+	<h2 class="yoda-componentCodeEditor-title body-font">Scopes</h2>
+	<md-button ng-click="loadScopeData()">Load</md-button> -->
+	<!-- <md-button ng-click="updateScopeData()" class="md-primary">Run</md-button> -->
+	<!--
+	<div ng-if="isScopeInspectorLoaded">
+	<div class="yoda-componentCodeEditor-scope" ng-model="componentScope" ui-ace="{
+	mode: 'javascript'
+}"></div>
+</div>
+</div> -->
+
+</div>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href=".././app/build/appname.common.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src=".././app/build/appname.common.js"></script>
+
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', ['appname.common']);
+
+    </script>
+
+</head>
+
+<body ng-app="myApp">
+
+    <main class="container">
+        <h1 class="body-font"> Directive: Block Buttons </h1>
+        <!--<appname-non-standard-address address-obj="mock.address"
+                                          matching-address-list="matchingAddressList"
+                                          formatted-address="formattedAddress"
+                                          get-matching-address-list="getAddressList(addressValue)"
+                                          get-formatted-address="getAddress(idValue)"
+                                          label-name="value" value-name="code" group-title="QAS Example"
+                                          name="options1">
+        </appname-non-standard-address>-->
+        <appname-non-standard-address list="mock.list.value" label-name="label" value-name="value" group-title="Block Buttons" name="options"></appname-non-standard-address>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+@menu-width: 240px;
+@menu-transition: 0.22s cubic-bezier(.23,1,.32,1);
+
+.yoda-catwalkLayout {
+	height: 100%;
+
+	&-navigation {
+		width: @menu-width;
+		overflow: hidden;
+		-webkit-overflow-scrolling: touch;
+		border-right: 1px solid #d7d2cb;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: -@menu-width;
+		background-color: #fff;
+		transition: left @menu-transition;
+		overflow: auto;
+		// box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+		z-index: 100;
+	}
+
+	&-mainPanel {
+		padding-left: 0;
+		margin-right: 0;
+		width: 100%;
+		min-height: 100vh;
+		max-width: 100%;
+		transition: padding @menu-transition;
+
+		&-triggerMenuButton {
+			display: inline-block;
+			position: fixed;
+			bottom: 0;
+			left: auto;
+			z-index: 200;
+
+			&:focus, &:hover, &:visited, &:active {
+				outline: 0;
+			}
+		}
+	}
+
+	&.menu-open {
+		.yoda-catwalkLayout-navigation {
+			left: 0;
+		}
+		.yoda-catwalkLayout-mainPanel {
+			padding-left: @menu-width;
+		}
+	}
+}

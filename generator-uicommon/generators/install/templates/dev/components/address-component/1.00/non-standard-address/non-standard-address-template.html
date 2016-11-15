@@ -1,0 +1,55 @@
+<div class="appname-non-standard-address" ng-if="address.showAddressFields == 'Y'">
+    <label ng-if="vm.groupTitle.length" class="btn-group-title">{{ vm.groupTitle}}<span ng-if="vm.isRequired" class="appname-non-standard-address__mandatory">*</span></label>
+    <gui-tooltip ng-if="vm.isDisabled" position="{{vm.tooltipPosition}}" tooltip-title="{{vm.cmLockedFieldMsg}}" class="appname-non-standard-address__fieldset__icon">
+        <span class="icon icon-size-sm icon-padlock" data-grunticon-embed></span>
+    </gui-tooltip>
+    <div ng-class="{'disabled':vm.isDisabled}"
+         ng-required="vm.isRequired" class="test_appname-non-standard-address_label_{{vm.name}}" name="{{vm.name}}" >
+
+        <div class="form-group">
+            <div class="form-group">
+                <label for="addmailname1">Address </label>
+                <input type="text" ng-model="address.addressLine1" name="addmailname1"
+                       class="input-field" id="addmailname1" maxlength="40" required
+                       placeholder="" data-arc-key="custCreat_MailingNameTextBox_001">
+                <input type="text" ng-model="address.addressLine2" name="addmailname2"
+                       class="input-field" id="addmailname2" maxlength="40" placeholder="">
+                <input type="text" ng-model="address.addressLine3" name="addmailname3"
+                       class="input-field" id="addmailname3" maxlength="40" placeholder="">
+                <!-- /form-group -->
+                <label for="add-state">State  </label>
+                <div class="input-field-select-wrapper" ng-if="address.country.code == 'AU'">
+                    <select name="addState" class="input-field-select" id="add-state" ng-model="address.state"
+                            ng-options="item.value.toUpperCase() for item in stateList | orderBy:'code' track by item.code">
+                        <option value="">Select</option>
+                    </select>
+                </div>
+                <input type="text" ng-model="address.overseasState" name="addOverseasState" ng-if="address.state.code == 'FOR'"
+                       class="input-field" id="overseasState" maxlength="15" ng-pattern="/^[^?%]+$/"
+                       placeholder="Overseas state/province">
+                <div class="row input-field-row">
+                    <div class="col-md-6 form-group">
+                        <label for="addcity">Suburb / City </label>
+                        <input type="text" ng-model="address.city" name="addcity" ng-pattern="/^[^?%]+$/"
+                               class="input-field" id="addcity" placeholder=""
+                               maxlength="25" data-arc-key="custCreat_Suburb/CityTextBox_001" >
+                    </div>
+                    <!-- /form-group -->
+                    <div class="col-md-6">
+                        <label for="addpostcodeAus">Postcode </label>
+                        <!-- max length of post code depending on the country selected -->
+                        <input type="text"
+                               ng-model="address.pocode"
+                               max="9999"
+                               name="addpostcodeaus" class="input-field " id="addpostcodeAus"
+                               placeholder=""
+                               data-arc-key="custCreat_PostCodeTextBox_001">
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /form-group -->
+        </div>
+    </div>
+    <p ng-if="vm.errorMsg && vm.isInvalid" class="alert-form-msg">{{:: vm.errorMsg}}</p>
+</div>

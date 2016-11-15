@@ -1,0 +1,16 @@
+<div class="appname-combobox">
+    <label ng-if="vm.groupTitle.length" class="btn-group-title">{{ vm.groupTitle}}<span ng-if="vm.isRequired" class="appname-combobox__mandatory">*</span></label>
+    <gui-tooltip ng-if="vm.isDisabled" position="{{vm.tooltipPosition}}" tooltip-title="{{vm.cmLockedFieldMsg}}" class="appname-combobox__fieldset__icon">
+        <span class="icon icon-size-sm icon-padlock" data-grunticon-embed></span>
+    </gui-tooltip>
+    <div class="" ng-class="{'disabled':vm.isDisabled}">
+        <select name="{{vm.name}}" combo-box class="test_appname-combobox_label_{{vm.name}}" id="businessClassification"
+                ng-model="vm.model" ng-class="{'disabled':vm.isDisabled}"
+                ng-required="vm.isRequired"
+                ng-options="listentry[vm.labelName]?listentry[vm.valueName]:listentry for listentry in vm.list"
+                data-arc-key="">
+            <option value="">Select</option>
+        </select>
+    </div>
+    <p ng-if="vm.errorMsg && vm.isInvalid" class="alert-form-msg">{{:: vm.errorMsg}}</p>
+</div>

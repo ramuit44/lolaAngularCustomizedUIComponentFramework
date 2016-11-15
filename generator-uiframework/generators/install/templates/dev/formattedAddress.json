@@ -1,0 +1,17 @@
+{
+    "Statuscode": 1220,
+    "AddressId": "0pOAUEGwLfBwAAAAAIAgEAAAACZT7ukADhABIAAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABSYXRoc2NhciBXZXN0IENodXJjaCwgNDQ0IEF2b2NhLUJlYWxpYmEgUm9hZCwgUkFUSFNDQVIgV0VTVCAgVklDICAzNDY1AA--",
+    "PropertyName": "Common Property Name to be displayed ",
+    "FloorAddress": null,
+    "UnitNumber": "",
+    "StreetNumber": "444 ",
+    "isStreetNumberRange": false,
+    "FirstStreetNumber": null,
+    "StreetName": "Awesome ",
+    "StreetSUffixType": "Road",
+    "Suburb": "MOCK WEST",
+    "PostCode": "3465",
+    "stateCode": "VIC",
+    "CountryCode": "AUS",
+    "preceedingText": ""
+}

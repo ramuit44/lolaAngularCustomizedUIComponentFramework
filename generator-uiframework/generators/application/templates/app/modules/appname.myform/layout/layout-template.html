@@ -1,0 +1,100 @@
+<div class="appname-myform-layout container">
+
+	<h3 class="body-font appname-myform-layout__title">{{ message }}, This will be the demo page for common components</h3>
+
+	<div class="appname-myform-layout__text">
+		<div class="row">
+			<div class="panel panel-responsive col-xs-6">
+				<div class="panel-body">
+					<appname-multicomponent-layout></appname-multicomponent-layout>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="panel panel-responsive col-xs-6">
+				<div class="panel-body">
+					<appname-block-buttons model="vm.blockModel" list="vm.user.blockbuttons.value" label-name="label" value-name="value" group-title="Block Buttons Example" name="options"></appname-block-buttons>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="panel panel-responsive col-xs-6">
+				<div class="panel-body">
+					<appname-combobox model="vm.comboModel" list="vm.busClass" label-name="value" value-name="code" group-title="Combobox Example" name="options1"></appname-combobox>
+				</div>
+			</div>
+		</div>
+		<!--<appname-predictive-address-search address-obj="vm.address" state-list="vm.states"
+										  matching-address-list="vm.addressList"
+										  formatted-address="vm.formattedAddress"
+										  get-matching-address-list="getAddressList(addressValue)"
+										  get-formatted-address="getAddress(idValue)"
+										  label-name="value" value-name="code" group-title="QAS Example"
+										  name="options1">
+		</appname-predictive-address-search>
+
+		<!--<appname-non-standard-address address-obj="vm.address" state-list="vm.states"
+									 label-name="value" value-name="code" group-title="Manual Fields"
+									 name="options1">
+		</appname-non-standard-address>-->
+		<div class="row bottom-margin4-xs">
+			<div class="panel panel-responsive col-xs-6">
+				<div class="panel-body">
+					<appname-address-component-layout address-obj="vm.address" state-list="vm.states"
+					                                 matching-address-list="vm.addressList" country-list="vm.countryList"
+					                                 formatted-address="vm.formattedAddress"
+					                                 get-matching-address-list="getAddressList(addressValue)"
+					                                 get-formatted-address="getAddress(idValue)">
+					</appname-address-component-layout>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="panel panel-responsive col-xs-6">
+				<div class="panel-body">
+					<appname-tiles model="vm.tilesModel" multi-output="true" multi-column="true"
+					              list="vm.smallList" label-name="value" value-name="code"
+					              group-title="Tiles Example" name="options1"></appname-tiles>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="panel panel-responsive col-xs-12">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-xs-3">Block selected: </div><div class="col-xs-3">{{ vm.blockModel }}</div>
+						<div class="col-xs-3">Combo selected: </div><div class="col-xs-3">{{ vm.comboModel.value || "" }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Address is Line 1</div><div class="col-xs-9">{{ vm.address.addressLine1 }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Line 2</div><div class="col-xs-9">{{ vm.address.addressLine2 }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Line 3</div><div class="col-xs-9">{{ vm.address.addressLine3 }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">State</div>
+						<div ng-if="vm.address.state.code != 'FOR'" class="col-xs-9">{{ vm.address.state.value }}</div>
+						<div ng-if="vm.address.state.code == 'FOR'" class="col-xs-9">{{ vm.address.overseasState }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">City</div><div class="col-xs-9">{{ vm.address.city }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Post Code</div><div class="col-xs-9">{{ vm.address.pocode }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Country</div><div class="col-xs-9">{{ vm.address.country.value }}</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">Tile(s) selected</div>
+						<div class="col-xs-9"><span ng-repeat="tile in vm.tilesModel">{{tile.value}} </span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

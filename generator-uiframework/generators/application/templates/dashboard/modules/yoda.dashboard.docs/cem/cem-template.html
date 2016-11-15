@@ -1,0 +1,83 @@
+<div class="yoda-cem">
+
+	<h1 class="body-font yoda-cem__title">CEM <br> Component Element Modifier</h1>
+
+	<h2 class="body-font">Components</h2>
+
+	<h3 class="body-font">Prefixs</h3>
+
+	Every components class need to be prefixed!
+	In this document, the prefix used will be pre.
+
+	<p>
+		Wrong
+		<pre>.dropdown</pre>
+	</p>
+
+	<p>
+		Correct
+		<pre>.pre-dropdown</pre>
+	</p>
+
+	<h2 class="body-font">Elements</h2>
+
+	Every elements in a component need to contain the name of their parent component.
+
+	<pre>
+&lt;div class="pre-dropdown"&gt;
+&lt;button class="pre-dropdown__trigger-btn"&gt;&lt;/button&gt;
+&lt;/div&gt;
+	</pre>
+
+	<p>
+		Correct
+		<pre>
+.pre-dropdown__trigger-btn
+		</pre>
+
+		to select the component in the less file
+		<pre>
+.pre-dropdown  {
+	&__trigger-btn {
+		//
+	}
+}
+		</pre>
+
+	</p>
+
+	<h2 class="body-font">Modifiers</h2>
+
+	<h3 class="body-font">Context Modifier</h3>
+	<p>
+
+		If you want to add a context modifier add two dashs at the end of your element class.
+		<pre>
+.pre-dropdown--register-form
+,pre-dropdown--welcome-page
+		</pre>
+	</p>
+
+
+	<h3 class="body-font">State Modifier</h3>
+
+	<p>
+		State modifier start with:
+		<pre>
+.is-
+.has-
+.is-open
+.is-checked
+.has-menu
+.has-children
+		</pre>
+
+	</p>
+
+	<h2 class="body-font">Javascript</h2>
+
+	<code>.js-<code> classes are use only for Javascript selector.
+		Never attach CSS rules to a class starting with <code>js-</code>
+		<pre>js-pre-dropdown__element__subelement</pre>
+
+	</div>

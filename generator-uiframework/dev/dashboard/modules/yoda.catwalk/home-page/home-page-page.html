@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../app/dist/yoda.catwalk.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dist/yoda.catwalk.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['yoda.catwalk']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1> Directive: home-page </h1>
+      <yoda-home-page my-param="{{mock.simple_string.value}}"></yoda-home-page>
+   </main>
+
+</body>
+</html>

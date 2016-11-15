@@ -1,0 +1,33 @@
+{
+    "code": 200,
+    "status": "Success",
+    "data": {
+        "userId": "L000009",
+        "userName": "John Smith",
+        "contactNumber": "4010174657",
+        "userBranch": "Kent Street",
+        "userBsbNumber": "984",
+        "userBranchId": "",
+        "brand": "stg",
+        "subBrand": "",
+        "permissions": {
+            "InitiateQuote": true,
+            "EditQuote": true,
+            "ReadOnlyQuote": false,
+            "BrandSwap": true,
+            "SubBrandSwap": false,
+            "MaintainRole": true,
+            "MaintainPreference": true,
+            "DefaultPreference": true
+        },
+        "role": "rf-sbg-lendmgr",
+        "errors": [
+            {
+                "code": "E01",
+                "type": "ERROR",
+                "message": "Invalid BSB: 1234"
+            }
+        ]
+    }
+
+}

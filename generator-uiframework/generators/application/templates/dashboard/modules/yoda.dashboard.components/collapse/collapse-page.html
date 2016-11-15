@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <link rel='stylesheet' href="../../app/dist/yoda.dashboard.components.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dist/yoda.dashboard.components.js"></script>
+
+   <script type="text/javascript">
+   var myApp = angular.module('myApp', ['yoda.dashboard.components']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container" ng-init="components={'Component1':{}, 'Component2':{}}">
+      <h1>yoda-collapse </h1>
+      <yoda-collapse name="ModuleName" components="components"></yoda-collapse>
+   </main>
+
+</body>
+</html>

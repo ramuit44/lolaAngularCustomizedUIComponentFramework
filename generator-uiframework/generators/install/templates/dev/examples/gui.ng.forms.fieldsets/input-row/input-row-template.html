@@ -1,0 +1,22 @@
+<div ng-form="fieldForm" class="gui-inputRow row clearfix">
+
+	<div ng-disabled="disabled" class="gui-inputRow-label col-sm-6">
+		<label class="form-label" for="{{ fieldCtrl.fieldId }}">{{ fieldCtrl.label }}</label>
+		<ng-transclude></ng-transclude>
+	</div>
+
+	<div class="col-sm-6">
+
+		<div ng-switch="fieldCtrl.fieldType">
+			<gui-text-input ng-switch-when="text" params="fieldCtrl"></gui-text-input>
+			<gui-email-input ng-switch-when="email" params="fieldCtrl"></gui-email-input>
+			<gui-radio-input ng-switch-when="radio" field-options="fieldCtrl.fieldOptions" field-model="fieldCtrl.fieldModel"></gui-radio-input>
+		</div>
+
+		<div class="errors" ng-messages="fieldForm[fieldCtrl.fieldId].$dirty && fieldForm[fieldCtrl.fieldId].$error" role="alert">
+			<div ng-message="required">You did not enter a value for this field</div>
+			<div ng-message="email">Please enter a valid email</div>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../app/dev/appname.components.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dev/appname.components.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['appname.components']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1 class="body-font"> Directive: dropdown </h1>
+      <appname-dropdown
+         button-default="20 min"
+         button-model="mock.model.value"
+         button-options="mock.list.value">
+      </appname-dropdown>
+   </main>
+
+</body>
+</html>

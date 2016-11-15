@@ -1,0 +1,39 @@
+<div class="yoda-componentParamsTable container" ng-if="params">
+
+	<h2 class="body-font">Parameters</h2>
+	<div class="yoda-componentParamsTable-table table-responsive">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th class="yoda-componentParamsTable-table-header">Name</th>
+					<th class="yoda-componentParamsTable-table-header">Mandatory</th>
+					<th class="yoda-componentParamsTable-table-header">Type</th>
+					<th class="yoda-componentParamsTable-table-header">Data</th>
+					<th class="yoda-componentParamsTable-table-header">
+						<button ng-if="!edit" type="button" class="yoda-componentParamsTable-table-header-btn btn btn-hero" ng-click="changeMode()">Edit</button>
+						<button ng-if="edit" type="button" class="yoda-componentParamsTable-table-header-btn btn btn-faint" ng-click="changeMode()">Cancel</button>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="(label, item) in params">
+					<td class="yoda-componentParamsTable-table-cell">{{ hyphenate(label) }}</td>
+					<td class="yoda-componentParamsTable-table-cell">{{ item.mandatory }}</td>
+					<td class="yoda-componentParamsTable-table-cell">{{ getType(item) }}</td>
+					<td class="yoda-componentParamsTable-table-cell" colspan="2">
+
+						<div ng-if="!edit">
+							<div>{{item.value}}</div>
+						</div>
+
+						<div ng-if="edit">
+							<yoda-object-editor item="item" class="yoda-componentParamsTable-table-cell-data"></yoda-object-editor>
+						</div>
+
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</div>

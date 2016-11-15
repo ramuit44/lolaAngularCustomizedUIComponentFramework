@@ -1,0 +1,15 @@
+<div class="appname-predictive-address-search">
+    <label ng-if="vm.groupTitle.length" class="btn-group-title">{{ vm.groupTitle}}<span ng-if="vm.isRequired" class="appname-predictive-address-search__mandatory">*</span></label>
+    <gui-tooltip ng-if="vm.isDisabled" position="{{vm.tooltipPosition}}" tooltip-title="{{vm.cmLockedFieldMsg}}" class="appname-predictive-address-search__fieldset__icon">
+        <span class="icon icon-size-sm icon-padlock" data-grunticon-embed></span>
+    </gui-tooltip>
+    <div ng-class="{'disabled':vm.isDisabled}" class="btn-dropdown is-open">
+        <input name="{{vm.name}}" combo-box class="test_appname-predictive-address-search_label_{{vm.name}} qas input-field address" id="maddress"
+               ng-class="{'disabled':vm.isDisabled}" ng-blur="checkQASSelected()"
+               ng-required="vm.isRequired" ng-model="vm.addressObj.qasAddress"
+               maxlength="255"
+               placeholder="Please enter and select your Australian address"
+               data-arc-key="">
+    </div>
+    <p ng-if="vm.errorMsg && vm.isInvalid" class="alert-form-msg">{{:: vm.errorMsg}}</p>
+</div>

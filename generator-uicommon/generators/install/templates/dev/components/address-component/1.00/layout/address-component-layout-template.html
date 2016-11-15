@@ -1,0 +1,24 @@
+<div class="appname-address-component-layout row">
+	<label for="add-country">Country:</label>
+	<div class="input-field-select-wrapper">
+		<select name="add-country" class="input-field-select" id="add-country" ng-model="vm.addressObj.country"
+		        ng-change="countryChanged()"
+		        ng-options="item.value.toUpperCase() for item in countryList | orderBy:'code' track by item.code">
+			<option value="">Select</option>
+		</select>
+	</div>
+	<appname-predictive-address-search address-obj="vm.addressObj" state-list="vm.stateList"
+	                                  matching-address-list="vm.matchingAddressList"
+	                                  is-disabled="vm.addressObj.country && vm.addressObj.country.code != 'AU'"
+	                                  formatted-address="vm.formattedAddress"
+	                                  get-matching-address-list="getList(addressValue)"
+	                                  get-formatted-address="getValue(idValue)"
+	                                  label-name="value" value-name="code" group-title="QAS Example"
+	                                  name="options1">
+	</appname-predictive-address-search>
+
+	<appname-non-standard-address address-obj="vm.addressObj" state-list="vm.stateList"
+	                             label-name="value" value-name="code" group-title="Manual Fields"
+	                             name="options1">
+	</appname-non-standard-address>
+</div>

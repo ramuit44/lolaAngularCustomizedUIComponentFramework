@@ -1,0 +1,26 @@
+.yoda-componentParamsTable {
+
+	&-table {
+		&-header {
+			vertical-align: middle;
+
+			&-btn {
+				float: right;
+			}
+		}
+
+		& &-cell {
+			vertical-align: middle;
+		}
+
+		& &-radio {
+			display: inline-table;
+		}
+	}
+
+	// override GUI2 global selector
+	.table > thead > tr > th {
+		vertical-align: middle;
+	}
+
+}

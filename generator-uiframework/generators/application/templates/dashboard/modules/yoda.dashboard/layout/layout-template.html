@@ -1,0 +1,12 @@
+<div ng-class="{'menu-open' : isMenuOpen}" class="yoda-dashboardLayout _yoda-dashboardLayout">
+
+	<yoda-dashboard-menu class="yoda-dashboardLayout-navigation"></yoda-dashboard-menu>
+
+	<div class="yoda-dashboardLayout-mainPanel">
+
+		<yoda-menu-icon class="yoda-dashboardLayout-mainPanel-triggerMenuButton" ng-click="triggerMenu()"></yoda-menu-icon>
+
+		<ui-view></ui-view>
+	</div>
+
+	<div>

@@ -1,0 +1,77 @@
+@import (reference) '../../appname.app/variables/index.less';
+@header-height: 70px;
+@header-padding: 15px;
+.appname-header {
+    text-align: left;
+    background-color: #fff;
+    border-bottom: 1px solid @color-H;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    height: @header-height;
+    padding: 0 @header-padding;
+    .visibilityHidden {
+        visibility: hidden;
+    }
+    & .disabled {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+    &__back {
+        vertical-align: top;
+        height: auto;
+        display: inline-block;
+        margin: 12px 0;
+    }
+    &__logo {
+        vertical-align: top;
+        margin-left: 25px;
+    }
+    &__home {
+        text-align: center;
+        padding: @header-padding 0;
+        display: inline-block;
+    }
+    &__user-context {
+        float: right;
+        text-align: center;
+        padding: @header-padding 0;
+        &__bsb {
+            display: inline-block;
+            padding: 0 @header-padding;
+            border-right: 1px solid @color-H;
+            &__title-label {
+                font-weight: bold;
+            }
+        }
+        &__name {
+            display: inline-block;
+            padding: 0 @header-padding;
+            border-right: 1px solid @color-H;
+            &__title-label {
+                font-weight: bold;
+            }
+        }
+        &__preferences {
+            display: inline-block;
+            padding: 0 @header-padding;
+            border-right: 1px solid @color-H;
+            &__logo-container {
+                margin-top: 3px;
+            }
+        }
+        &__home {
+            display: inline-block;
+            padding: 0 @header-padding;
+            border-right: 1px solid @color-H;
+            &__logo-container {
+                margin-top: 3px;
+            }
+        }
+        &__logout {
+            display: inline-block;
+            padding: 0 @header-padding;
+            &__logo-container {
+                margin-top: 3px;
+            }
+        }
+    }
+}

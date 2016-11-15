@@ -1,0 +1,14 @@
+<div class="appname-dropdown">
+    <div ng-class="{'is-open' : vm.isOpen, disabled: vm.isDisabled}" class="btn-dropdown btn-block" aria-haspopup="true">
+        <button name="vm.name" tabindex="0" ng-click="vm.trigger()" type="button" class="btn btn-lg btn-hero btn-soft appname-dropdown__button js-button-dropdown" aria-label="Hit enter to open dropdown">
+            <span class="btn-icon btn-icon-left icon icon-size-sm {{ vm.buttonIcon }} appname-dropdown-btn-icon" data-grunticon-embed></span> <span class="btn-dropdown-caret"> {{ vm.buttonLabel}}</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-sm" role="menu" aria-label="Hit the Esc key to close dropdown" tabindex="-1" aria-hidden="{{ !vm.isOpen }}">
+            <li ng-repeat="item in vm.buttonOptions">
+                <input type="button" class="btn btn-lg btn-link btn-dropdown-list" ng-click="vm.setValue(item)" value="{{vm.labelName?item[vm.labelName]:item}}"></input>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--appname-trap is-trap-enabled="vm.isTrapEnabled"-->

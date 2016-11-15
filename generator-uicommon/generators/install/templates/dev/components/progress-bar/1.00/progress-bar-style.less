@@ -1,0 +1,85 @@
+@import (reference) "../../gui.blend/index.less";
+
+@color-Border: #D7D2D0;
+
+.appname-progress-bar {
+	margin-bottom: 30px;
+
+	ul {
+		list-style: none;
+		font-size: 0;
+		padding: 0;
+		text-align: center;
+		margin-top: 0;
+		li {
+			display: inline-block;
+			width: 33.333333%;
+			text-align: left;
+			border-right: 1px solid @color-Border;
+			position: relative;
+			padding: 12px;
+			text-align: left;
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				height: 3px;
+				background-color: @color-Border;
+			}
+		}
+	}
+
+	.step-number {
+		font-size: 14px;
+		display: block;
+	}
+
+	.step-name {
+		text-transform: capitalize;
+		font-size: 14px;
+	}
+
+	.step:last-child {
+		border-right: none;
+	}
+
+	.is-active {
+		&:after {
+			background-color: @color-B;
+		}
+		.step-name {
+			font-weight: bold;
+		}
+	}
+
+	// @media (min-width: @screen-sm-min) {
+	// 	margin-left: 0;
+	// 	margin-right: 0;
+	// 	ul {
+	// 		margin-top: @spacing2;
+	// 		li {
+	// 			padding: @spacing3 @spacing4 @spacing4;
+	// 			text-align: left;
+	// 		}
+	// 	}
+	// 	.step-number,
+	// 	.step-name {
+	// 		display: block;
+	// 	}
+	// 	.step-name {
+	// 		text-transform: none;
+	// 	}
+	// }
+	//
+	// @media (max-width: 360px) {
+	// 	ul li {
+	// 		padding-left: 3px;
+	// 		padding-right: 3px;
+	// 	}
+	// }
+
+}

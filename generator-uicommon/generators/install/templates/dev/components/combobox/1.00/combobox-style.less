@@ -1,0 +1,103 @@
+@import (reference) "../../gui.blend/index.less";
+@import (reference) "../../appname.app/index.less";
+.appname-combobox {
+    .btn-group {
+        &-title {
+            .appname-label();
+        }
+    }
+    .disabled {
+        .appname-disabled();
+    }
+    &__mandatory {
+        color: red;
+    }
+    &__fieldset {
+        &__icon {
+            display: inline-block;
+            float: right;
+            margin-top: 4px;
+            .appname-tooltip();
+        }
+    }
+    .btn-group-item {
+        .btn-group-text.has-warning {
+            border-color: @color-Warning;
+        }
+    }
+    .input-group-row{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        & .input-group-input{
+            width: 83.33333333%;
+            fload: left;
+            position: relative;
+            min-height: 1px;
+        }
+        & .input-group-addon{
+            width: 16.66666666%;
+            max-width: 36px;
+            fload: left;
+            position: relative;
+            min-height: 1px;
+        }
+    }
+    .combobox-container{
+        & ul > li{
+            font-size: 14px;
+        }
+        & .icon-cross {
+            display: none;
+        }
+        & .caret{
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 2px;
+            vertical-align: middle;
+            border-top: 8px solid;
+            border-right: 7px solid transparent;
+            border-left: 7px solid transparent;
+        }
+        & .opened{
+            & .caret {
+                border-bottom: 8px solid;
+                border-top: 0;
+            }
+        }
+        &.combobox-selected {
+            & .caret {
+                display: none;
+            }
+            & .icon-cross {
+                display: block;
+                margin: 2px 0 0 2px;
+            }
+        }
+    }
+
+    .typeahead-long {
+        max-height: 300px;
+        overflow-y: auto !important;
+    }
+}
+/*
+.combobox-container
+{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+.combobox-container .input-group-addon,
+.combobox-container .input-group-addon {
+    width: auto;
+}
+.combobox-selected .caret {
+    display: none;
+}
+/!* :not doesn't work in IE8 *!/
+.combobox-container:not(.combobox-selected) .glyphicon-remove {
+    display: none;
+}
+*/

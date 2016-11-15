@@ -1,0 +1,11 @@
+<div class="appname-popover popover-wrapper js-popover-wrapper" ng-class="{'is-open': (vm.status[vm.name] && vm.trigger === 'click')}">
+    <ng-transclude></ng-transclude>
+    <div ng-class="{'popover-left': (vm.horizontalPosition === 'left'), 'popover-right': (vm.horizontalPosition === 'right'), 'popover-bottom': (vm.verticalPosition === 'bottom')}" class="popover-popup js-popoverbody">
+        <p class="popover-popup-title">
+            {{vm.popoverTitle}}
+        </p>
+        <p class="popover-popup-body">
+            {{vm.message}}
+        </p>
+    </div>
+</div>

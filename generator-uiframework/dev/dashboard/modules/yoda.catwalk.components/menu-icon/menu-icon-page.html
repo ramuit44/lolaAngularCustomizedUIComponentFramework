@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+
+   <link rel='stylesheet' href="../../app/dist/yoda.catwalk.components.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dist/yoda.catwalk.components.min.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['yoda.catwalk.components']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container" ng-init="state = true">
+      <h1> yoda-lightsabers-menu-icon </h1>
+      <yoda-menu-icon state="!state"></yoda-menu-icon>
+
+      <yoda-menu-icon state="state"></yoda-menu-icon>
+   </main>
+
+</body>
+</html>

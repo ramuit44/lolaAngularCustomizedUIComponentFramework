@@ -1,0 +1,106 @@
+.yoda-lightsabersMenuIcon {
+
+	.nav-drawer-toggle {
+		//   border-right: 1px solid #333333;
+		width: 60px;
+		height: 60px;
+		cursor: pointer;
+		//   background-color: #222;
+		// background-color: #fff;
+		overflow: hidden;
+		outline: none;
+		// box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+		//   position: fixed;
+		//   top: 0;
+		//   left: 50%;
+		//   margin-left: -30px;
+	}
+
+	.toggle-icon {
+		display: block;
+		position: relative;
+		top: 50%;
+		width: 100%;
+		margin: -22px auto 0 2px;
+		-webkit-transition: margin 600ms;
+		-moz-transition: margin 600ms;
+		transition: margin 600ms;
+	}
+	.bar {
+		display: block;
+		width: 38px;
+		height: 2px;
+		margin: 9px;
+		// border-right: 28px solid #fff;
+		border-right: 28px solid #000;
+		border-left: 6px solid #000;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-transition-property: -webkit-transform, margin, border-right-color, box-shadow;
+		-moz-transition-property: -moz-transform, margin, border-right-color, box-shadow;
+		transition-property: transform, margin, border-right-color, box-shadow;
+		-webkit-transition-duration: 600ms;
+		-moz-transition-duration: 600ms;
+		transition-duration: 600ms;
+	}
+
+	.bar:nth-of-type(2n) {
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+	/* Toggled states */
+	.toggled .toggle-icon {
+		margin: -32px 0 0 7px;
+	}
+	.toggled .toggle-icon .bar:nth-of-type(3) {
+		margin-left: 5px;
+		-webkit-transform: rotate(-42deg);
+		-moz-transform: rotate(-42deg);
+		-ms-transform: rotate(-42deg);
+		-o-transform: rotate(-42deg);
+		transform: rotate(-42deg);
+	}
+	.toggled .toggle-icon .bar:nth-of-type(2) {
+		margin-left: 14px;
+		-webkit-transform: rotate(-137deg) translateY(-15px);
+		-moz-transform: rotate(-137deg) translateY(-15px);
+		-ms-transform: rotate(-137deg) translateY(-15px);
+		-o-transform: rotate(-137deg) translateY(-15px);
+		transform: rotate(-137deg) translateY(-15px);
+	}
+	.toggled .toggle-icon .bar:nth-of-type(1) {
+		opacity: 0;
+	}
+
+	/* Lightsaber glow */
+	.nav-drawer-toggle.toggled .bar:nth-of-type(3) {
+		border-right-color: #ddf1da;
+		box-shadow: 4px 0 6px 1px rgba(83,228,68,0.65);
+	}
+
+	.nav-drawer-toggle.toggled .bar:nth-of-type(2) {
+		border-right-color: #e9b8b9;
+		box-shadow: 4px 0 6px 1px rgba(205,40,44,0.75);
+	}
+
+	// #nav-drawer-toggle:hover .bar:nth-of-type(3) {
+	//   border-right-color: #ddf1da;
+	//   box-shadow: 4px 0 6px 1px rgba(83,228,68,0.65);
+	// }
+	//
+	// #nav-drawer-toggle:hover .bar:nth-of-type(2) {
+	//   border-right-color: #e9b8b9;
+	//   box-shadow: 4px 0 6px 1px rgba(205,40,44,0.75);
+	// }
+	//
+	// #nav-drawer-toggle:hover .bar:nth-of-type(1) {
+	//   border-right-color: #ddf1da;
+	//   box-shadow: 4px 0 6px 1px rgba(83,228,68,0.65);
+	// }
+
+}

@@ -1,0 +1,17 @@
+<div ng-class="{'menu-open' : isMenuOpen}" class="yoda-catwalkLayout _yoda-catwalkLayout">
+
+	<yoda-catwalk-menu class="yoda-catwalkLayout-navigation"></yoda-catwalk-menu>
+
+	<div class="yoda-catwalkLayout-mainPanel">
+
+		<yoda-menu-icon class="yoda-catwalkLayout-mainPanel-triggerMenuButton" ng-click="triggerMenu()"></yoda-menu-icon>
+
+
+		<!--<yoda-page-header title="headerTitle">
+			<h1>{{state.current.data.headerTitle}}</h1>
+		</yoda-page-header> -->
+
+		<ui-view></ui-view>
+	</div>
+
+	<div>

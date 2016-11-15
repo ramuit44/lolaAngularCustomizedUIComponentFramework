@@ -1,0 +1,7 @@
+<div class="yoda-brand-switch">
+
+	<select class="yoda-brand-switch__select" name="brandSelect" ng-model="$root.brand" ng-change="updateBrand()">
+		<option ng-repeat="brand in vm.brands" value="{{brand}}">{{brand}}</option>
+	</select>
+
+</div>

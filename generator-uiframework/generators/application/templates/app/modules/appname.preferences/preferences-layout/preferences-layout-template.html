@@ -1,0 +1,19 @@
+<div class="appname-preferences-layout container">
+    <div class="appname-preferences-layout__content">
+        <form ng-submit="vm.submitForm()" class="appname-preferences-layout__content__form" name="vm.userPreferencesForm" novalidate>
+            <h1 class="appname-preferences-layout__content__title body-font">{{:: vm.cmLabels.header.title}}</h1>
+            <div class="row appname-preferences-layout__row">
+                <div class="col-sm-12 appname-preferences-layout__row__fieldset">
+                    <gui-alert close-button="false" type="danger" is-closed="!vm.isError" data-grunticon-embed>
+                        {{:: vm.cmLabels.header.errorMsg[vm.errorCondition]}}
+                    </gui-alert>
+                </div>
+            </div>
+            <appname-preferences-form form-object="vm.userPreferencesForm" form-data="vm.formData"></appname-preferences-form>
+            <div class="appname-preferences-layout__content__actions">
+                <input ng-disabled="vm.user.currentUserDetails.permissions[vm.user.accessBasedOnPermissions.defaultPreference] && !vm.user.isDelegatedRole" type="button" class="btn btn-faint btn-lg appname-preferences-layout__content__actions__btn-cancel" ui-sref="home.welcome" value="{{ vm.cmLabels.footer.actions.cancel}}"></input>
+                <input type="submit" class="btn btn-primary btn-lg appname-preferences-layout__content__actions__btn-update" value="{{ vm.cmLabels.footer.actions.submit}}"></input>
+            </div>
+        </form>
+    </div>
+</div>

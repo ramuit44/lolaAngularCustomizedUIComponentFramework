@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../app/dist/gui.ng.forms.fieldsets.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dist/gui.ng.forms.fieldsets.js"></script>
+
+   <script type="text/javascript">
+   var myApp = angular.module('myApp', ['gui.ng.forms.fieldsets']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container container-fluid">
+      <h1 class="body-font"> Directive: input-row </h1>
+      <form>
+         <gui-input-row
+            label="{{mock.label.value}}"
+            field-id="mock.fieldId.value"
+            field-model="formData.fieldModel"
+            field-type="{{mock.fieldType.value}}"
+            field-placeholder="{{mock.fieldPlaceholder.value}}"
+            field-required="mock.fieldRequired.value">
+         </gui-input-row>
+      </form>
+   </main>
+
+</body>
+</html>

@@ -1,0 +1,1250 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+	"userName": "Dan Whitmarsh",
+	"blockbuttons": {
+	  "value": [{
+		"label": "option1",
+		"value": "option1"
+	  }, {
+		"label": "option2",
+		"value": "option2"
+	  }]
+	},
+	"countries":[{
+	  "code": "AF",
+	  "value": "AFGHANISTAN",
+	  "providerDescription": "Afghanistan",
+	  "providerCode": "AF"
+	}, {
+	  "code": "AX",
+	  "value": "ALAND ISLANDS",
+	  "providerDescription": "Aland Islands",
+	  "providerCode": "AX"
+	}, {
+	  "code": "AL",
+	  "value": "ALBANIA",
+	  "providerDescription": "Albania",
+	  "providerCode": "AL"
+	}, {
+	  "code": "DZ",
+	  "value": "ALGERIA",
+	  "providerDescription": "Algeria",
+	  "providerCode": "DZ"
+	}, {
+	  "code": "AS",
+	  "value": "AMERICAN SAMOA",
+	  "providerDescription": "American Samoa",
+	  "providerCode": "AS"
+	}, {
+	  "code": "AD",
+	  "value": "ANDORRA",
+	  "providerDescription": "Andorra",
+	  "providerCode": "AD"
+	}, {
+	  "code": "AO",
+	  "value": "ANGOLA",
+	  "providerDescription": "Angola",
+	  "providerCode": "AO"
+	}, {
+	  "code": "AI",
+	  "value": "ANGUILLA",
+	  "providerDescription": "Anguilla",
+	  "providerCode": "AI"
+	}, {
+	  "code": "AQ",
+	  "value": "ANTARCTICA",
+	  "providerDescription": "Antarctica",
+	  "providerCode": "AQ"
+	}, {
+	  "code": "AG",
+	  "value": "ANTIGUA AND BARBUDA",
+	  "providerDescription": "Antigua and Barbuda",
+	  "providerCode": "AG"
+	}, {
+	  "code": "AR",
+	  "value": "ARGENTINA",
+	  "providerDescription": "Argentina",
+	  "providerCode": "AR"
+	}, {
+	  "code": "AM",
+	  "value": "ARMENIA",
+	  "providerDescription": "Armenia",
+	  "providerCode": "AM"
+	}, {
+	  "code": "AW",
+	  "value": "ARUBA",
+	  "providerDescription": "Aruba",
+	  "providerCode": "AW"
+	}, {
+	  "code": "AU",
+	  "value": "AUSTRALIA",
+	  "providerDescription": "Australia",
+	  "providerCode": "AU"
+	}, {
+	  "code": "AT",
+	  "value": "AUSTRIA",
+	  "providerDescription": "Austria",
+	  "providerCode": "AT"
+	}, {
+	  "code": "AZ",
+	  "value": "AZERBAIJAN",
+	  "providerDescription": "Azerbaijan",
+	  "providerCode": "AZ"
+	}, {
+	  "code": "BS",
+	  "value": "BAHAMAS",
+	  "providerDescription": "Bahamas",
+	  "providerCode": "BS"
+	}, {
+	  "code": "BH",
+	  "value": "BAHRAIN",
+	  "providerDescription": "Bahrain",
+	  "providerCode": "BH"
+	}, {
+	  "code": "BD",
+	  "value": "BANGLADESH",
+	  "providerDescription": "Bangladesh",
+	  "providerCode": "BD"
+	}, {
+	  "code": "BB",
+	  "value": "BARBADOS",
+	  "providerDescription": "Barbados",
+	  "providerCode": "BB"
+	}, {
+	  "code": "BY",
+	  "value": "BELARUS",
+	  "providerDescription": "Belarus",
+	  "providerCode": "BY"
+	}, {
+	  "code": "BE",
+	  "value": "BELGIUM",
+	  "providerDescription": "Belgium",
+	  "providerCode": "BE"
+	}, {
+	  "code": "BZ",
+	  "value": "BELIZE",
+	  "providerDescription": "Belize",
+	  "providerCode": "BZ"
+	}, {
+	  "code": "BJ",
+	  "value": "BENIN",
+	  "providerDescription": "Benin",
+	  "providerCode": "BJ"
+	}, {
+	  "code": "BM",
+	  "value": "BERMUDA",
+	  "providerDescription": "Bermuda",
+	  "providerCode": "BM"
+	}, {
+	  "code": "BT",
+	  "value": "BHUTAN",
+	  "providerDescription": "Bhutan",
+	  "providerCode": "BT"
+	}, {
+	  "code": "BO",
+	  "value": "BOLIVIA",
+	  "providerDescription": "Bolivia",
+	  "providerCode": "BO"
+	}, {
+	  "code": "BA",
+	  "value": "BOSNIA AND HERZEGOVINA",
+	  "providerDescription": "Bosnia and Herzegovina",
+	  "providerCode": "BA"
+	}, {
+	  "code": "BW",
+	  "value": "BOTSWANA",
+	  "providerDescription": "Botswana",
+	  "providerCode": "BW"
+	}, {
+	  "code": "BV",
+	  "value": "BOUVET ISLAND",
+	  "providerDescription": "Bouvet Island",
+	  "providerCode": "BV"
+	}, {
+	  "code": "BR",
+	  "value": "BRAZIL",
+	  "providerDescription": "Brazil",
+	  "providerCode": "BR"
+	}, {
+	  "code": "IO",
+	  "value": "BRITISH INDIAN OCEAN TERRITORY",
+	  "providerDescription": "British Indian Ocean Territory",
+	  "providerCode": "IO"
+	}, {
+	  "code": "BN",
+	  "value": "BRUNEI DARUSSALAM",
+	  "providerDescription": "Brunei Darussalam",
+	  "providerCode": "BN"
+	}, {
+	  "code": "BG",
+	  "value": "BULGARIA",
+	  "providerDescription": "Bulgaria",
+	  "providerCode": "BG"
+	}, {
+	  "code": "BF",
+	  "value": "BURKINA FASO",
+	  "providerDescription": "Burkina Faso",
+	  "providerCode": "BF"
+	}, {
+	  "code": "BI",
+	  "value": "BURUNDI",
+	  "providerDescription": "Burundi",
+	  "providerCode": "BI"
+	}, {
+	  "code": "KH",
+	  "value": "CAMBODIA",
+	  "providerDescription": "Cambodia",
+	  "providerCode": "KH"
+	}, {
+	  "code": "CM",
+	  "value": "CAMEROON",
+	  "providerDescription": "Cameroon",
+	  "providerCode": "CM"
+	}, {
+	  "code": "CA",
+	  "value": "CANADA",
+	  "providerDescription": "Canada",
+	  "providerCode": "CA"
+	}, {
+	  "code": "CV",
+	  "value": "CAPE VERDE",
+	  "providerDescription": "Cape Verde",
+	  "providerCode": "CV"
+	}, {
+	  "code": "KY",
+	  "value": "CAYMAN ISLANDS",
+	  "providerDescription": "Cayman Islands",
+	  "providerCode": "KY"
+	}, {
+	  "code": "CF",
+	  "value": "CENTRAL AFRICAN REPUBLIC",
+	  "providerDescription": "Central African Republic",
+	  "providerCode": "CF"
+	}, {
+	  "code": "TD",
+	  "value": "CHAD",
+	  "providerDescription": "Chad",
+	  "providerCode": "TD"
+	}, {
+	  "code": "CL",
+	  "value": "CHILE",
+	  "providerDescription": "Chile",
+	  "providerCode": "CL"
+	}, {
+	  "code": "CN",
+	  "value": "CHINA",
+	  "providerDescription": "China, People's Republic of",
+	  "providerCode": "CN"
+	}, {
+	  "code": "CX",
+	  "value": "CHRISTMAS ISLAND",
+	  "providerDescription": "Christmas Island",
+	  "providerCode": "CX"
+	}, {
+	  "code": "CC",
+	  "value": "COCOS (KEELING) ISLANDS",
+	  "providerDescription": "Cocos (Keeling) Islands",
+	  "providerCode": "CC"
+	}, {
+	  "code": "CO",
+	  "value": "COLOMBIA",
+	  "providerDescription": "Colombia",
+	  "providerCode": "CO"
+	}, {
+	  "code": "KM",
+	  "value": "COMOROS",
+	  "providerDescription": "Comoros",
+	  "providerCode": "KM"
+	}, {
+	  "code": "CG",
+	  "value": "CONGO",
+	  "providerDescription": "Congo, Republic of the",
+	  "providerCode": "CG"
+	}, {
+	  "code": "CD",
+	  "value": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
+	  "providerDescription": "Congo, The Democratic Republic Of The",
+	  "providerCode": "CD"
+	}, {
+	  "code": "CK",
+	  "value": "COOK ISLANDS",
+	  "providerDescription": "Cook Islands",
+	  "providerCode": "CK"
+	}, {
+	  "code": "CR",
+	  "value": "COSTA RICA",
+	  "providerDescription": "Costa Rica",
+	  "providerCode": "CR"
+	}, {
+	  "code": "HR",
+	  "value": "CROATIA",
+	  "providerDescription": "Croatia",
+	  "providerCode": "HR"
+	}, {
+	  "code": "CU",
+	  "value": "CUBA",
+	  "providerDescription": "Cuba",
+	  "providerCode": "CU"
+	}, {
+	  "code": "CY",
+	  "value": "CYPRUS",
+	  "providerDescription": "Cyprus",
+	  "providerCode": "CY"
+	}, {
+	  "code": "CZ",
+	  "value": "CZECH REPUBLIC",
+	  "providerDescription": "Czech Republic",
+	  "providerCode": "CZ"
+	}, {
+	  "code": "DK",
+	  "value": "DENMARK",
+	  "providerDescription": "Denmark",
+	  "providerCode": "DK"
+	}, {
+	  "code": "DJ",
+	  "value": "DJIBOUTI",
+	  "providerDescription": "Djibouti",
+	  "providerCode": "DJ"
+	}, {
+	  "code": "DM",
+	  "value": "DOMINICA",
+	  "providerDescription": "Dominica",
+	  "providerCode": "DM"
+	}, {
+	  "code": "DO",
+	  "value": "DOMINICAN REPUBLIC",
+	  "providerDescription": "Dominican Republic",
+	  "providerCode": "DO"
+	}, {
+	  "code": "EC",
+	  "value": "ECUADOR",
+	  "providerDescription": "Ecuador",
+	  "providerCode": "EC"
+	}, {
+	  "code": "EG",
+	  "value": "EGYPT",
+	  "providerDescription": "Egypt",
+	  "providerCode": "EG"
+	}, {
+	  "code": "SV",
+	  "value": "EL SALVADOR",
+	  "providerDescription": "El Salvador",
+	  "providerCode": "SV"
+	}, {
+	  "code": "GQ",
+	  "value": "EQUATORIAL GUINEA",
+	  "providerDescription": "Equatorial Guinea",
+	  "providerCode": "GQ"
+	}, {
+	  "code": "ER",
+	  "value": "ERITREA",
+	  "providerDescription": "Eritrea",
+	  "providerCode": "ER"
+	}, {
+	  "code": "EE",
+	  "value": "ESTONIA",
+	  "providerDescription": "Estonia",
+	  "providerCode": "EE"
+	}, {
+	  "code": "ET",
+	  "value": "ETHIOPIA",
+	  "providerDescription": "Ethiopia",
+	  "providerCode": "ET"
+	}, {
+	  "code": "EU",
+	  "value": "EUROPEAN UNION",
+	  "providerDescription": "European Union",
+	  "providerCode": "EU"
+	}, {
+	  "code": "FK",
+	  "value": "FALKLAND ISLANDS (MALVINAS)",
+	  "providerDescription": "Falkland Islands",
+	  "providerCode": "FK"
+	}, {
+	  "code": "FO",
+	  "value": "FAROE ISLANDS",
+	  "providerDescription": "Faroe Islands",
+	  "providerCode": "FO"
+	}, {
+	  "code": "FJ",
+	  "value": "FIJI",
+	  "providerDescription": "Fiji",
+	  "providerCode": "FJ"
+	}, {
+	  "code": "FI",
+	  "value": "FINLAND",
+	  "providerDescription": "Finland",
+	  "providerCode": "FI"
+	}, {
+	  "code": "FR",
+	  "value": "FRANCE",
+	  "providerDescription": "France",
+	  "providerCode": "FR"
+	}, {
+	  "code": "GF",
+	  "value": "FRENCH GUIANA",
+	  "providerDescription": "French Guiana",
+	  "providerCode": "GF"
+	}, {
+	  "code": "PF",
+	  "value": "FRENCH POLYNESIA",
+	  "providerDescription": "French Polynesia",
+	  "providerCode": "PF"
+	}, {
+	  "code": "TF",
+	  "value": "FRENCH SOUTHERN TERRITORIES",
+	  "providerDescription": "French Southern Territories",
+	  "providerCode": "TF"
+	}, {
+	  "code": "GA",
+	  "value": "GABON",
+	  "providerDescription": "Gabon",
+	  "providerCode": "GA"
+	}, {
+	  "code": "GM",
+	  "value": "GAMBIA",
+	  "providerDescription": "Gambia",
+	  "providerCode": "GM"
+	}, {
+	  "code": "GE",
+	  "value": "GEORGIA",
+	  "providerDescription": "Georgia",
+	  "providerCode": "GE"
+	}, {
+	  "code": "DE",
+	  "value": "GERMANY",
+	  "providerDescription": "Germany",
+	  "providerCode": "DE"
+	}, {
+	  "code": "GH",
+	  "value": "GHANA",
+	  "providerDescription": "Ghana",
+	  "providerCode": "GH"
+	}, {
+	  "code": "GI",
+	  "value": "GIBRALTAR",
+	  "providerDescription": "Gibraltar",
+	  "providerCode": "GI"
+	}, {
+	  "code": "GR",
+	  "value": "GREECE",
+	  "providerDescription": "Greece",
+	  "providerCode": "GR"
+	}, {
+	  "code": "GL",
+	  "value": "GREENLAND",
+	  "providerDescription": "Greenland",
+	  "providerCode": "GL"
+	}, {
+	  "code": "GD",
+	  "value": "GRENADA",
+	  "providerDescription": "Grenada",
+	  "providerCode": "GD"
+	}, {
+	  "code": "GP",
+	  "value": "GUADELOUPE",
+	  "providerDescription": "Guadeloupe",
+	  "providerCode": "GP"
+	}, {
+	  "code": "GU",
+	  "value": "GUAM",
+	  "providerDescription": "Guam",
+	  "providerCode": "GU"
+	}, {
+	  "code": "GT",
+	  "value": "GUATEMALA",
+	  "providerDescription": "Guatemala",
+	  "providerCode": "GT"
+	}, {
+	  "code": "GG",
+	  "value": "GUERNSEY",
+	  "providerDescription": "Guernsey",
+	  "providerCode": "GG"
+	}, {
+	  "code": "GN",
+	  "value": "GUINEA",
+	  "providerDescription": "Guinea",
+	  "providerCode": "GN"
+	}, {
+	  "code": "GW",
+	  "value": "GUINEA-BISSAU",
+	  "providerDescription": "Guinea-Bissau",
+	  "providerCode": "GW"
+	}, {
+	  "code": "GY",
+	  "value": "GUYANA",
+	  "providerDescription": "Guyana",
+	  "providerCode": "GY"
+	}, {
+	  "code": "HT",
+	  "value": "HAITI",
+	  "providerDescription": "Haiti",
+	  "providerCode": "HT"
+	}, {
+	  "code": "HM",
+	  "value": "HEARD AND MCDONALD ISLANDS",
+	  "providerDescription": "Heard Island and McDonald Islands",
+	  "providerCode": "HM"
+	}, {
+	  "code": "VA",
+	  "value": "HOLY SEE (VATICAN CITY STATE)",
+	  "providerDescription": "Vatican City State",
+	  "providerCode": "VA"
+	}, {
+	  "code": "HN",
+	  "value": "HONDURAS",
+	  "providerDescription": "Honduras",
+	  "providerCode": "HN"
+	}, {
+	  "code": "HK",
+	  "value": "HONG KONG",
+	  "providerDescription": "Hong Kong",
+	  "providerCode": "HK"
+	}, {
+	  "code": "HU",
+	  "value": "HUNGARY",
+	  "providerDescription": "Hungary",
+	  "providerCode": "HU"
+	}, {
+	  "code": "IS",
+	  "value": "ICELAND",
+	  "providerDescription": "Iceland",
+	  "providerCode": "IS"
+	}, {
+	  "code": "IN",
+	  "value": "INDIA",
+	  "providerDescription": "India",
+	  "providerCode": "IN"
+	}, {
+	  "code": "ID",
+	  "value": "INDONESIA",
+	  "providerDescription": "Indonesia",
+	  "providerCode": "ID"
+	}, {
+	  "code": "IR",
+	  "value": "IRAN, ISLAMIC REPUBLIC OF",
+	  "providerDescription": "Iran, Islamic Republic of",
+	  "providerCode": "IR"
+	}, {
+	  "code": "IQ",
+	  "value": "IRAQ",
+	  "providerDescription": "Iraq",
+	  "providerCode": "IQ"
+	}, {
+	  "code": "IE",
+	  "value": "IRELAND",
+	  "providerDescription": "Ireland",
+	  "providerCode": "IE"
+	}, {
+	  "code": "IM",
+	  "value": "ISLE OF MAN",
+	  "providerDescription": "Isle of Man",
+	  "providerCode": "IM"
+	}, {
+	  "code": "IL",
+	  "value": "ISRAEL",
+	  "providerDescription": "Israel",
+	  "providerCode": "IL"
+	}, {
+	  "code": "IT",
+	  "value": "ITALY",
+	  "providerDescription": "Italy",
+	  "providerCode": "IT"
+	}, {
+	  "code": "JM",
+	  "value": "JAMAICA",
+	  "providerDescription": "Jamaica",
+	  "providerCode": "JM"
+	}, {
+	  "code": "JP",
+	  "value": "JAPAN",
+	  "providerDescription": "Japan",
+	  "providerCode": "JP"
+	}, {
+	  "code": "JE",
+	  "value": "JERSEY",
+	  "providerDescription": "Jersey",
+	  "providerCode": "JE"
+	}, {
+	  "code": "JO",
+	  "value": "JORDAN",
+	  "providerDescription": "Jordan",
+	  "providerCode": "JO"
+	}, {
+	  "code": "KZ",
+	  "value": "KAZAKHSTAN",
+	  "providerDescription": "Kazakhstan",
+	  "providerCode": "KZ"
+	}, {
+	  "code": "KE",
+	  "value": "KENYA",
+	  "providerDescription": "Kenya",
+	  "providerCode": "KE"
+	}, {
+	  "code": "KI",
+	  "value": "KIRIBATI",
+	  "providerDescription": "Kiribati",
+	  "providerCode": "KI"
+	}, {
+	  "code": "KP",
+	  "value": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+	  "providerDescription": "Korea, Democratic People's Republic of",
+	  "providerCode": "KP"
+	}, {
+	  "code": "KR",
+	  "value": "KOREA, REPUBLIC OF",
+	  "providerDescription": "Korea, Republic of",
+	  "providerCode": "KR"
+	}, {
+	  "code": "KW",
+	  "value": "KUWAIT",
+	  "providerDescription": "Kuwait",
+	  "providerCode": "KW"
+	}, {
+	  "code": "KG",
+	  "value": "KYRGYZSTAN",
+	  "providerDescription": "Kyrgyzstan",
+	  "providerCode": "KG"
+	}, {
+	  "code": "LA",
+	  "value": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+	  "providerDescription": "Lao People's Democratic Republic",
+	  "providerCode": "LA"
+	}, {
+	  "code": "LV",
+	  "value": "LATVIA",
+	  "providerDescription": "Latvia",
+	  "providerCode": "LV"
+	}, {
+	  "code": "LB",
+	  "value": "LEBANON",
+	  "providerDescription": "Lebanon",
+	  "providerCode": "LB"
+	}, {
+	  "code": "LS",
+	  "value": "LESOTHO",
+	  "providerDescription": "Lesotho",
+	  "providerCode": "LS"
+	}, {
+	  "code": "LR",
+	  "value": "LIBERIA",
+	  "providerDescription": "Liberia",
+	  "providerCode": "LR"
+	}, {
+	  "code": "LY",
+	  "value": "LIBYAN ARAB JAMAHIRIYA",
+	  "providerDescription": "Libyan Arab Jamahiriya",
+	  "providerCode": "LY"
+	}, {
+	  "code": "LI",
+	  "value": "LIECHTENSTEIN",
+	  "providerDescription": "Liechtenstein",
+	  "providerCode": "LI"
+	}, {
+	  "code": "LT",
+	  "value": "LITHUANIA",
+	  "providerDescription": "Lithuania",
+	  "providerCode": "LT"
+	}, {
+	  "code": "LU",
+	  "value": "LUXEMBOURG",
+	  "providerDescription": "Luxembourg",
+	  "providerCode": "LU"
+	}, {
+	  "code": "MO",
+	  "value": "MACAO",
+	  "providerDescription": "Macao",
+	  "providerCode": "MO"
+	}, {
+	  "code": "MK",
+	  "value": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
+	  "providerDescription": "Macedonia, The Former Yugoslav Republic of",
+	  "providerCode": "MK"
+	}, {
+	  "code": "MG",
+	  "value": "MADAGASCAR",
+	  "providerDescription": "Madagascar",
+	  "providerCode": "MG"
+	}, {
+	  "code": "MW",
+	  "value": "MALAWI",
+	  "providerDescription": "Malawi",
+	  "providerCode": "MW"
+	}, {
+	  "code": "MY",
+	  "value": "MALAYSIA",
+	  "providerDescription": "Malaysia",
+	  "providerCode": "MY"
+	}, {
+	  "code": "MV",
+	  "value": "MALDIVES",
+	  "providerDescription": "Maldives",
+	  "providerCode": "MV"
+	}, {
+	  "code": "ML",
+	  "value": "MALI",
+	  "providerDescription": "Mali",
+	  "providerCode": "ML"
+	}, {
+	  "code": "MT",
+	  "value": "MALTA",
+	  "providerDescription": "Malta",
+	  "providerCode": "MT"
+	}, {
+	  "code": "MH",
+	  "value": "MARSHALL ISLANDS",
+	  "providerDescription": "Marshall Islands",
+	  "providerCode": "MH"
+	}, {
+	  "code": "MQ",
+	  "value": "MARTINIQUE",
+	  "providerDescription": "Martinique",
+	  "providerCode": "MQ"
+	}, {
+	  "code": "MR",
+	  "value": "MAURITANIA",
+	  "providerDescription": "Mauritania",
+	  "providerCode": "MR"
+	}, {
+	  "code": "MU",
+	  "value": "MAURITIUS",
+	  "providerDescription": "Mauritius",
+	  "providerCode": "MU"
+	}, {
+	  "code": "YT",
+	  "value": "MAYOTTE",
+	  "providerDescription": "Mayotte",
+	  "providerCode": "YT"
+	}, {
+	  "code": "MX",
+	  "value": "MEXICO",
+	  "providerDescription": "Mexico",
+	  "providerCode": "MX"
+	}, {
+	  "code": "FM",
+	  "value": "MICRONESIA, FEDERATED STATES OF",
+	  "providerDescription": "Micronesia, Federated States of",
+	  "providerCode": "FM"
+	}, {
+	  "code": "MD",
+	  "value": "MOLDOVA, REPUBLIC OF",
+	  "providerDescription": "Moldova, Republic of",
+	  "providerCode": "MD"
+	}, {
+	  "code": "MC",
+	  "value": "MONACO",
+	  "providerDescription": "Monaco",
+	  "providerCode": "MC"
+	}, {
+	  "code": "MN",
+	  "value": "MONGOLIA",
+	  "providerDescription": "Mongolia",
+	  "providerCode": "MN"
+	}, {
+	  "code": "ME",
+	  "value": "MONTENEGRO",
+	  "providerDescription": "Montenegro",
+	  "providerCode": "ME"
+	}, {
+	  "code": "MS",
+	  "value": "MONTSERRAT",
+	  "providerDescription": "Montserrat",
+	  "providerCode": "MS"
+	}, {
+	  "code": "MA",
+	  "value": "MOROCCO",
+	  "providerDescription": "Morocco",
+	  "providerCode": "MA"
+	}, {
+	  "code": "MZ",
+	  "value": "MOZAMBIQUE",
+	  "providerDescription": "Mozambique",
+	  "providerCode": "MZ"
+	}, {
+	  "code": "MM",
+	  "value": "MYANMAR",
+	  "providerDescription": "Myanmar",
+	  "providerCode": "MM"
+	}, {
+	  "code": "NA",
+	  "value": "NAMIBIA",
+	  "providerDescription": "Namibia",
+	  "providerCode": "NA"
+	}, {
+	  "code": "NR",
+	  "value": "NAURU",
+	  "providerDescription": "Nauru",
+	  "providerCode": "NR"
+	}, {
+	  "code": "NP",
+	  "value": "NEPAL",
+	  "providerDescription": "Nepal",
+	  "providerCode": "NP"
+	}, {
+	  "code": "NL",
+	  "value": "NETHERLANDS",
+	  "providerDescription": "Netherlands",
+	  "providerCode": "NL"
+	}, {
+	  "code": "AN",
+	  "value": "NETHERLANDS ANTILLES",
+	  "providerDescription": "Netherlands Antilles",
+	  "providerCode": "AN"
+	}, {
+	  "code": "NC",
+	  "value": "NEW CALEDONIA",
+	  "providerDescription": "New Caledonia",
+	  "providerCode": "NC"
+	}, {
+	  "code": "NZ",
+	  "value": "NEW ZEALAND",
+	  "providerDescription": "New Zealand",
+	  "providerCode": "NZ"
+	}, {
+	  "code": "NE",
+	  "value": "NIGER",
+	  "providerDescription": "Niger",
+	  "providerCode": "NE"
+	}, {
+	  "code": "NG",
+	  "value": "NIGERIA",
+	  "providerDescription": "Nigeria",
+	  "providerCode": "NG"
+	}, {
+	  "code": "NU",
+	  "value": "NIUE",
+	  "providerDescription": "Niue",
+	  "providerCode": "NU"
+	}, {
+	  "code": "NF",
+	  "value": "NORFOLK ISLAND",
+	  "providerDescription": "Norfolk Island",
+	  "providerCode": "NF"
+	}, {
+	  "code": "MP",
+	  "value": "NORTHERN MARIANA ISLANDS",
+	  "providerDescription": "Northern Mariana Islands",
+	  "providerCode": "MP"
+	}, {
+	  "code": "NO",
+	  "value": "NORWAY",
+	  "providerDescription": "Norway",
+	  "providerCode": "NO"
+	}, {
+	  "code": "OM",
+	  "value": "OMAN",
+	  "providerDescription": "Oman",
+	  "providerCode": "OM"
+	}, {
+	  "code": "PK",
+	  "value": "PAKISTAN",
+	  "providerDescription": "Pakistan",
+	  "providerCode": "PK"
+	}, {
+	  "code": "PW",
+	  "value": "PALAU",
+	  "providerDescription": "Palau",
+	  "providerCode": "PW"
+	}, {
+	  "code": "PS",
+	  "value": "PALESTINIAN TERRITORY, OCCUPIED",
+	  "providerDescription": "Palestinian Territory, Occupied",
+	  "providerCode": "PS"
+	}, {
+	  "code": "PA",
+	  "value": "PANAMA",
+	  "providerDescription": "Panama",
+	  "providerCode": "PA"
+	}, {
+	  "code": "PG",
+	  "value": "PAPUA NEW GUINEA",
+	  "providerDescription": "Papua New Guinea",
+	  "providerCode": "PG"
+	}, {
+	  "code": "PY",
+	  "value": "PARAGUAY",
+	  "providerDescription": "Paraguay",
+	  "providerCode": "PY"
+	}, {
+	  "code": "PE",
+	  "value": "PERU",
+	  "providerDescription": "Peru",
+	  "providerCode": "PE"
+	}, {
+	  "code": "PH",
+	  "value": "PHILIPPINES",
+	  "providerDescription": "Philippines",
+	  "providerCode": "PH"
+	}, {
+	  "code": "PN",
+	  "value": "PITCAIRN",
+	  "providerDescription": "Pitcairn",
+	  "providerCode": "PN"
+	}, {
+	  "code": "PL",
+	  "value": "POLAND",
+	  "providerDescription": "Poland",
+	  "providerCode": "PL"
+	}, {
+	  "code": "PT",
+	  "value": "PORTUGAL",
+	  "providerDescription": "Portugal",
+	  "providerCode": "PT"
+	}, {
+	  "code": "PR",
+	  "value": "PUERTO RICO",
+	  "providerDescription": "Puerto Rico",
+	  "providerCode": "PR"
+	}, {
+	  "code": "QA",
+	  "value": "QATAR",
+	  "providerDescription": "Qatar",
+	  "providerCode": "QA"
+	}, {
+	  "code": "RE",
+	  "value": "REUNION",
+	  "providerDescription": "Reunion",
+	  "providerCode": "RE"
+	}, {
+	  "code": "RO",
+	  "value": "ROMANIA",
+	  "providerDescription": "Romania",
+	  "providerCode": "RO"
+	}, {
+	  "code": "RU",
+	  "value": "RUSSIAN FEDERATION",
+	  "providerDescription": "Russian Federation",
+	  "providerCode": "RU"
+	}, {
+	  "code": "RW",
+	  "value": "RWANDA",
+	  "providerDescription": "Rwanda",
+	  "providerCode": "RW"
+	}, {
+	  "code": "BL",
+	  "value": "SAINT BARTHELEMY",
+	  "providerDescription": "Saint Barthelemy",
+	  "providerCode": "BL"
+	}, {
+	  "code": "SH",
+	  "value": "SAINT HELENA",
+	  "providerDescription": "Saint Helena",
+	  "providerCode": "SH"
+	}, {
+	  "code": "KN",
+	  "value": "SAINT KITTS AND NEVIS",
+	  "providerDescription": "Saint Kitts and Nevis",
+	  "providerCode": "KN"
+	}, {
+	  "code": "LC",
+	  "value": "SAINT LUCIA",
+	  "providerDescription": "Saint Lucia",
+	  "providerCode": "LC"
+	}, {
+	  "code": "MF",
+	  "value": "SAINT MARTIN",
+	  "providerDescription": "Saint Martin",
+	  "providerCode": "MF"
+	}, {
+	  "code": "PM",
+	  "value": "SAINT PIERRE AND MIQUELON",
+	  "providerDescription": "Saint-Pierre and Miquelon",
+	  "providerCode": "PM"
+	}, {
+	  "code": "VC",
+	  "value": "SAINT VINCENT AND THE GRENEDINES",
+	  "providerDescription": "Saint Vincent and the Grenadines",
+	  "providerCode": "VC"
+	}, {
+	  "code": "WS",
+	  "value": "SAMOA",
+	  "providerDescription": "Samoa",
+	  "providerCode": "WS"
+	}, {
+	  "code": "SM",
+	  "value": "SAN MARINO",
+	  "providerDescription": "San Marino",
+	  "providerCode": "SM"
+	}, {
+	  "code": "ST",
+	  "value": "SAO TOME AND PRINCIPE",
+	  "providerDescription": "Sao Tome and Principe",
+	  "providerCode": "ST"
+	}, {
+	  "code": "SA",
+	  "value": "SAUDI ARABIA",
+	  "providerDescription": "Saudi Arabia",
+	  "providerCode": "SA"
+	}, {
+	  "code": "SN",
+	  "value": "SENEGAL",
+	  "providerDescription": "Senegal",
+	  "providerCode": "SN"
+	}, {
+	  "code": "RS",
+	  "value": "SERBIA",
+	  "providerDescription": "Serbia",
+	  "providerCode": "RS"
+	}, {
+	  "code": "SC",
+	  "value": "SEYCHELLES",
+	  "providerDescription": "Seychelles",
+	  "providerCode": "SC"
+	}, {
+	  "code": "SL",
+	  "value": "SIERRA LEONE",
+	  "providerDescription": "Sierra Leone",
+	  "providerCode": "SL"
+	}, {
+	  "code": "SG",
+	  "value": "SINGAPORE",
+	  "providerDescription": "Singapore",
+	  "providerCode": "SG"
+	}, {
+	  "code": "SK",
+	  "value": "SLOVAKIA",
+	  "providerDescription": "Slovakia",
+	  "providerCode": "SK"
+	}, {
+	  "code": "SI",
+	  "value": "SLOVENIA",
+	  "providerDescription": "Slovenia",
+	  "providerCode": "SI"
+	}, {
+	  "code": "SB",
+	  "value": "SOLOMON ISLANDS",
+	  "providerDescription": "Solomon Islands",
+	  "providerCode": "SB"
+	}, {
+	  "code": "SO",
+	  "value": "SOMALIA",
+	  "providerDescription": "Somalia",
+	  "providerCode": "SO"
+	}, {
+	  "code": "ZA",
+	  "value": "SOUTH AFRICA",
+	  "providerDescription": "South Africa",
+	  "providerCode": "ZA"
+	}, {
+	  "code": "GS",
+	  "value": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+	  "providerDescription": "South Georgia and the South Sandwich Islands",
+	  "providerCode": "GS"
+	}, {
+	  "code": "ES",
+	  "value": "SPAIN",
+	  "providerDescription": "Spain",
+	  "providerCode": "ES"
+	}, {
+	  "code": "LK",
+	  "value": "SRI LANKA",
+	  "providerDescription": "Sri Lanka",
+	  "providerCode": "LK"
+	}, {
+	  "code": "SD",
+	  "value": "SUDAN",
+	  "providerDescription": "Sudan",
+	  "providerCode": "SD"
+	}, {
+	  "code": "SR",
+	  "value": "SURINAME",
+	  "providerDescription": "Suriname",
+	  "providerCode": "SR"
+	}, {
+	  "code": "SJ",
+	  "value": "SVALBARD AND JAN MAYEN",
+	  "providerDescription": "Svalbard and Jan Mayen",
+	  "providerCode": "SJ"
+	}, {
+	  "code": "SZ",
+	  "value": "SWAZILAND",
+	  "providerDescription": "Swaziland",
+	  "providerCode": "SZ"
+	}, {
+	  "code": "SE",
+	  "value": "SWEDEN",
+	  "providerDescription": "Sweden",
+	  "providerCode": "SE"
+	}, {
+	  "code": "CH",
+	  "value": "SWITZERLAND",
+	  "providerDescription": "Switzerland",
+	  "providerCode": "CH"
+	}, {
+	  "code": "SY",
+	  "value": "SYRIAN ARAB REPUBLIC",
+	  "providerDescription": "Syrian Arab Republic",
+	  "providerCode": "SY"
+	}, {
+	  "code": "TW",
+	  "value": "TAIWAN, PROVINCE OF CHINA",
+	  "providerDescription": "Taiwan (Republic of China)",
+	  "providerCode": "TW"
+	}, {
+	  "code": "TJ",
+	  "value": "TAJIKISTAN",
+	  "providerDescription": "Tajikistan",
+	  "providerCode": "TJ"
+	}, {
+	  "code": "TZ",
+	  "value": "TANZANIA, UNITED REPUBLIC OF",
+	  "providerDescription": "Tanzania, United Republic Of",
+	  "providerCode": "TZ"
+	}, {
+	  "code": "TH",
+	  "value": "THAILAND",
+	  "providerDescription": "Thailand",
+	  "providerCode": "TH"
+	}, {
+	  "code": "TL",
+	  "value": "TIMOR-LESTE",
+	  "providerDescription": "Timor-Leste",
+	  "providerCode": "TL"
+	}, {
+	  "code": "TG",
+	  "value": "TOGO",
+	  "providerDescription": "Togo",
+	  "providerCode": "TG"
+	}, {
+	  "code": "TK",
+	  "value": "TOKELAU",
+	  "providerDescription": "Tokelau",
+	  "providerCode": "TK"
+	}, {
+	  "code": "TO",
+	  "value": "TONGA",
+	  "providerDescription": "Tonga",
+	  "providerCode": "TO"
+	}, {
+	  "code": "TT",
+	  "value": "TRINIDAD AND TOBAGO",
+	  "providerDescription": "Trinidad and Tobago",
+	  "providerCode": "TT"
+	}, {
+	  "code": "TN",
+	  "value": "TUNISIA",
+	  "providerDescription": "Tunisia",
+	  "providerCode": "TN"
+	}, {
+	  "code": "TR",
+	  "value": "TURKEY",
+	  "providerDescription": "Turkey",
+	  "providerCode": "TR"
+	}, {
+	  "code": "TM",
+	  "value": "TURKMENISTAN",
+	  "providerDescription": "Turkmenistan",
+	  "providerCode": "TM"
+	}, {
+	  "code": "TC",
+	  "value": "TURKS AND CAICOS ISLANDS",
+	  "providerDescription": "Turks and Caicos Islands",
+	  "providerCode": "TC"
+	}, {
+	  "code": "TV",
+	  "value": "TUVALU",
+	  "providerDescription": "Tuvalu",
+	  "providerCode": "TV"
+	}, {
+	  "code": "UG",
+	  "value": "UGANDA",
+	  "providerDescription": "Uganda",
+	  "providerCode": "UG"
+	}, {
+	  "code": "UA",
+	  "value": "UKRAINE",
+	  "providerDescription": "Ukraine",
+	  "providerCode": "UA"
+	}, {
+	  "code": "AE",
+	  "value": "UNITED ARAB EMIRATES",
+	  "providerDescription": "United Arab Emirates",
+	  "providerCode": "AE"
+	}, {
+	  "code": "GB",
+	  "value": "UNITED KINGDOM",
+	  "providerDescription": "United Kingdom",
+	  "providerCode": "GB"
+	}, {
+	  "code": "US",
+	  "value": "UNITED STATES",
+	  "providerDescription": "United States",
+	  "providerCode": "US"
+	}, {
+	  "code": "UM",
+	  "value": "UNITED STATES MINOR OUTLYING ISLANDS",
+	  "providerDescription": "United States Minor Outlying Islands",
+	  "providerCode": "UM"
+	}, {
+	  "code": "UY",
+	  "value": "URUGUAY",
+	  "providerDescription": "Uruguay",
+	  "providerCode": "UY"
+	}, {
+	  "code": "UZ",
+	  "value": "UZBEKISTAN",
+	  "providerDescription": "Uzbekistan",
+	  "providerCode": "UZ"
+	}, {
+	  "code": "VU",
+	  "value": "VANUATU",
+	  "providerDescription": "Vanuatu",
+	  "providerCode": "VU"
+	}, {
+	  "code": "VE",
+	  "value": "VENEZUELA, BOLIVARIAN REPUBLIC OF",
+	  "providerDescription": "Venezuela",
+	  "providerCode": "VE"
+	}, {
+	  "code": "VN",
+	  "value": "VIETNAM",
+	  "providerDescription": "Viet Nam",
+	  "providerCode": "VN"
+	}, {
+	  "code": "VG",
+	  "value": "VIRGIN ISLANDS, BRITISH",
+	  "providerDescription": "Virgin Islands, British",
+	  "providerCode": "VG"
+	}, {
+	  "code": "VI",
+	  "value": "VIRGIN ISLANDS, U.S.",
+	  "providerDescription": "Virgin Islands, U.S.",
+	  "providerCode": "VI"
+	}, {
+	  "code": "WF",
+	  "value": "WALLIS AND FUTUNA",
+	  "providerDescription": "Wallis and Futuna",
+	  "providerCode": "WF"
+	}, {
+	  "code": "EH",
+	  "value": "WESTERN SAHARA",
+	  "providerDescription": "Western Sahara",
+	  "providerCode": "EH"
+	}, {
+	  "code": "YE",
+	  "value": "YEMEN",
+	  "providerDescription": "Yemen",
+	  "providerCode": "YE"
+	}, {
+	  "code": "ZM",
+	  "value": "ZAMBIA",
+	  "providerDescription": "Zambia",
+	  "providerCode": "ZM"
+	}, {
+	  "code": "ZW",
+	  "value": "ZIMBABWE",
+	  "providerDescription": "Zimbabwe",
+	  "providerCode": "ZW"
+	}, {
+	  "code": "~",
+	  "value": "~",
+	  "providerDescription": "XX",
+	  "providerCode": "XX"
+	}],
+	"states":[{"code":"ACT","value":"Australian Capital Territory","providerDescription":"Australian Capital Territory","providerCode":"ACT"},{"code":"FOR","value":"Foreign","providerDescription":"Foreign","providerCode":"FOR"},{"code":"NSW","value":"New South Wales","providerDescription":"New South Wales","providerCode":"NSW"},{"code":"NT","value":"Northern Territory","providerDescription":"Northern Territory","providerCode":"NT"},{"code":"QLD","value":"Queensland","providerDescription":"Queensland","providerCode":"QLD"},{"code":"SA","value":"South Australia","providerDescription":"South Australia","providerCode":"SA"},{"code":"TAS","value":"Tasmania","providerDescription":"Tasmania","providerCode":"TAS"},{"code":"VIC","value":"Victoria","providerDescription":"Victoria","providerCode":"VIC"},{"code":"WA","value":"Western Australia","providerDescription":"Western Australia","providerCode":"WA"}],
+	"businessClassifications": [{"code":"Advertising","value":"Advertising","status":""},{"code":"Aerospace & Defense","value":"Aerospace & Defense","status":""},{"code":"10015","value":"Agriculture","status":""},{"code":"Air Courier","value":"Air Courier","status":""},{"code":"Airline","value":"Airline","status":""},{"code":"Apparel/Accessories","value":"Apparel/Accessories","status":""},{"code":"Appliance & Tool","value":"Appliance & Tool","status":""},{"code":"Audio & Video Equipment","value":"Audio & Video Equipment","status":""},{"code":"Auto & Truck Manufacturers","value":"Auto & Truck Manufacturers","status":""},{"code":"Auto & Truck Parts","value":"Auto & Truck Parts","status":""},{"code":"SIC 0317","value":"ACCOMMODATION","status":"CG"},{"code":"SIC 0426","value":"ACCOMMODATION FOR THE AGED","status":"CG"},{"code":"SIC 0532","value":"ACCOMMODATION, CAFES & RESTAURANTS","status":"DG"},{"code":"SIC 0383","value":"ACCOUNTING SERVICES","status":"CG"},{"code":"SIC 0384","value":"ADVERTISING SERVICES","status":"CG"},{"code":"SIC 0028","value":"AERIAL AGRICULTURAL SERVICES","status":"CG"},{"code":"SIC 0196","value":"AGRICULTURAL MACHINERY MANUFACTURING","status":"CG"},{"code":"SIC 0002","value":"AGRICULTURE","status":"DG"},{"code":"SIC 0570","value":"AGRICULTURE, FORESTRY & FISHING OVERVIEW","status":"DG"},{"code":"SIC 0542","value":"AIR & SEA TRANSPORT","status":"DG"},{"code":"SIC 0229","value":"AIR CONDITIONING AND HEATING SERVICES","status":"CG"},{"code":"SIC 0183","value":"AIRCRAFT MANUFACTURING","status":"CG"},{"code":"SIC 0560","value":"ALLOW FOR TESTING PCR742","status":"DG"},{"code":"SIC 0158","value":"ALUMINA PRODUCTION","status":"CG"},{"code":"SIC 0162","value":"ALUMINIUM ROLLING, DRAWING, EXTRUDING","status":"CG"},{"code":"SIC 0159","value":"ALUMINIUM SMELTING","status":"CG"},{"code":"SIC 0419","value":"AMBULANCE SERVICES","status":"CG"},{"code":"SIC 0302","value":"ANTIQUE AND USED GOOD RETAILING","status":"CG"},{"code":"SIC 0007","value":"APPLE AND PEAR GROWING","status":"CG"},{"code":"SIC 0040","value":"AQUACULTURE","status":"CG"},{"code":"SIC 0166","value":"ARCHITECTURAL ALUMINIUM PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0374","value":"ARCHITECTURAL SERVICES","status":"CG"},{"code":"SIC 0179","value":"AUTOMOTIVE COMPONENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0178","value":"AUTOMOTIVE ELECTRICAL AND INSTRUMENT MANUFACTURING","status":"CG"},{"code":"SIC 0313","value":"AUTOMOTIVE ELECTRICAL SERVICES","status":"CG"},{"code":"SIC 0312","value":"AUTOMOTIVE FUEL RETAILING","status":"CG"},{"code":"SIC 0316","value":"AUTOMOTIVE REPAIR AND SERVICES N.E.C.","status":"CG"},{"code":"Basic Materials","value":"Basic Materials","status":""},{"code":"Beverages (Alcoholic)","value":"Beverages (Alcoholic)","status":""},{"code":"Beverages (Nonalcoholic)","value":"Beverages (Nonalcoholic)","status":""},{"code":"Biotechnology & Drugs","value":"Biotechnology & Drugs","status":""},{"code":"Broadcasting & Cable TV","value":"Broadcasting & Cable TV","status":""},{"code":"Business Services","value":"Business Services","status":""},{"code":"SIC 0062","value":"BACON, HAM AND SMALLGOOD MANUFACTURING","status":"CG"},{"code":"SIC 0352","value":"BANKS","status":"CG"},{"code":"SIC 0155","value":"BASIC IRON AND STEEL MANUFACTURING","status":"CG"},{"code":"SIC 0525","value":"BASIC MATERIAL WHOLESALING","status":"DG"},{"code":"SIC 0161","value":"BASIC NON-FERROUS METAL MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0193","value":"BATTERY MANUFACTURING","status":"CG"},{"code":"SIC 0045","value":"BAUXITE MINING","status":"CG"},{"code":"SIC 0015","value":"BEEF CATTLE FARMING","status":"CG"},{"code":"SIC 0079","value":"BEER AND MALT MANUFACTURING","status":"CG"},{"code":"SIC 0072","value":"BISCUIT MANUFACTURING","status":"CG"},{"code":"SIC 0041","value":"BLACK COAL MINING","status":"CG"},{"code":"SIC 0181","value":"BOATBUILDING","status":"CG"},{"code":"SIC 0275","value":"BOOK AND MAGAZINE WHOLESALING","status":"CG"},{"code":"SIC 0119","value":"BOOK AND OTHER PUBLISHING","status":"CG"},{"code":"SIC 0283","value":"BREAD AND CAKE RETAILING","status":"CG"},{"code":"SIC 0070","value":"BREAD MANUFACTURING","status":"CG"},{"code":"SIC 0224","value":"BRICKLAYING SERVICES","status":"CG"},{"code":"SIC 0042","value":"BROWN COAL MINING","status":"CG"},{"code":"SIC 0353","value":"BUILDING SOCIETIES","status":"CG"},{"code":"SIC 0245","value":"BUILDING SUPPLIES WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0387","value":"BUSINESS ADMINISTRATIVE SERVICES","status":"CG"},{"code":"SIC 0460","value":"BUSINESS AND PROFESSIONAL ASSOCIATIONS","status":"CG"},{"code":"SIC 0249","value":"BUSINESS MACHINE WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0388","value":"BUSINESS MANAGEMENT SERVICES","status":"CG"},{"code":"SIC 0587","value":"BUSINESS SERVICES","status":"DG"},{"code":"SIC 0396","value":"BUSINESS SERVICES N.E.C.","status":"CG"},{"code":"Capital Goods","value":"Capital Goods","status":""},{"code":"Casinos & Gaming","value":"Casinos & Gaming","status":""},{"code":"Chemical Manufacturing","value":"Chemical Manufacturing","status":""},{"code":"Chemicals - Plastics & Rubber","value":"Chemicals - Plastics & Rubber","status":""},{"code":"Coal","value":"Coal","status":""},{"code":"Communications Equipment","value":"Communications Equipment","status":""},{"code":"Communications Services","value":"Communications Services","status":""},{"code":"Computer Hardware","value":"Computer Hardware","status":""},{"code":"Computer Networks","value":"Computer Networks","status":""},{"code":"Computer Peripherals","value":"Computer Peripherals","status":""},{"code":"Computer Services","value":"Computer Services","status":""},{"code":"Computer Storage Devices","value":"Computer Storage Devices","status":""},{"code":"Conglomerates","value":"Conglomerates","status":""},{"code":"Conglomerates Industry Group","value":"Conglomerates Industry Group","status":""},{"code":"Constr. & Agric. Machinery","value":"Constr. & Agric. Machinery","status":""},{"code":"Constr. - Supplies & Fixtures","value":"Constr. - Supplies & Fixtures","status":""},{"code":"10016","value":"Construction","status":""},{"code":"Construction - Raw Materials","value":"Construction - Raw Materials","status":""},{"code":"Construction Services","value":"Construction Services","status":""},{"code":"Consumer Cyclical","value":"Consumer Cyclical","status":""},{"code":"Consumer Financial Services","value":"Consumer Financial Services","status":""},{"code":"10013","value":"Consumer Goods","status":""},{"code":"Consumer/Non-Cyclical","value":"Consumer/Non-Cyclical","status":""},{"code":"Containers & Packaging","value":"Containers & Packaging","status":""},{"code":"0-3GLES","value":"Cover Stories from Business Week","status":""},{"code":"0-3GM2S","value":"Cover Stories from Canadian Business","status":""},{"code":"0-3GM2U","value":"Cover Stories from Forbes","status":""},{"code":"0-3GM2W","value":"Cover Stories from Fortune","status":""},{"code":"Crops","value":"Crops","status":""},{"code":"SIC 0319","value":"CAFES AND RESTAURANTS","status":"CG"},{"code":"SIC 0071","value":"CAKE AND PASTRY MANUFACTURING","status":"CG"},{"code":"SIC 0309","value":"CAR RETAILING","status":"CG"},{"code":"SIC 0252","value":"CAR WHOLESALING","status":"CG"},{"code":"SIC 0538","value":"CARAVAN PARKS","status":"CS"},{"code":"SIC 0093","value":"CARDIGAN AND PULLOVER MANUFACTURING","status":"CG"},{"code":"SIC 0232","value":"CARPENTRY SERVICES","status":"CG"},{"code":"SIC 0447","value":"CASINOS","status":"CG"},{"code":"SIC 0540","value":"CATERERS AND FOOD SERVICE CONTRACTORS","status":"CS"},{"code":"SIC 0149","value":"CEMENT AND LIME MANUFACTURING","status":"CG"},{"code":"SIC 0351","value":"CENTRAL BANK","status":"CG"},{"code":"SIC 0397","value":"CENTRAL GOVERNMENT ADMINISTRATION","status":"CG"},{"code":"SIC 0146","value":"CERAMIC PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0148","value":"CERAMIC PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0147","value":"CERAMIC TILE AND PIPE MANUFACTURING","status":"CG"},{"code":"SIC 0069","value":"CEREAL FOOD AND BAKING MIX MANUFACTURING","status":"CG"},{"code":"SIC 0239","value":"CEREAL GRAIN WHOLESALING","status":"CG"},{"code":"SIC 0135","value":"CHEMICAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0243","value":"CHEMICAL WHOLESALING","status":"CG"},{"code":"SIC 0425","value":"CHILD CARE SERVICES","status":"CG"},{"code":"SIC 0422","value":"CHIROPRACTIC SERVICES","status":"CG"},{"code":"SIC 0480","value":"CITRUS FRUIT GROWING","status":"CW"},{"code":"SIC 0145","value":"CLAY BRICK MANUFACTURING","status":"CG"},{"code":"SIC 0394","value":"CLEANING SERVICES","status":"CG"},{"code":"SIC 0098","value":"CLOTHING MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0288","value":"CLOTHING RETAILING","status":"CG"},{"code":"SIC 0266","value":"CLOTHING WHOLESALING","status":"CG"},{"code":"SIC 0320","value":"CLUBS (HOSPITALITY)","status":"CG"},{"code":"SIC 0579","value":"COAL MINING","status":"DG"},{"code":"SIC 0327","value":"COASTAL WATER TRANSPORT","status":"CG"},{"code":"SIC 0406","value":"COMBINED PRIMARY AND SECONDARY EDUCATION","status":"CG"},{"code":"SIC 0385","value":"COMMERCIAL ART AND DISPLAY SERVICES","status":"CG"},{"code":"SIC 0474","value":"COMMERCIAL BUILDING CONSTRUCTION","status":"CG"},{"code":"SIC 0510","value":"COMMERCIAL FISHING","status":"DG"},{"code":"SIC 0468","value":"COMMERCIAL PROPERTY DEVELOPERS OR INVESTORS","status":"CW"},{"code":"SIC 0578","value":"COMMERCIAL PROPERTY OPERATORS AND DEVELOPERS","status":"CS"},{"code":"SIC 0202","value":"COMMERCIAL SPACE HEATING AND COOLING EQUIPMENT MANUFACTURING","status":"CG"},{"code":"SIC 0253","value":"COMMERCIAL VEHICLE WHOLESALING","status":"CG"},{"code":"SIC 0489","value":"COMMUNICATION SERVICES","status":"DG"},{"code":"SIC 0420","value":"COMMUNITY HEALTH CENTRES","status":"CG"},{"code":"SIC 0497","value":"COMMUNITY SERVICES","status":"DG"},{"code":"SIC 0568","value":"COMMUNITY SERVICES, SCHOOLS","status":"CW"},{"code":"SIC 0491","value":"COMMUNITY SERVICES, SCHOOLS, CHARITIES, NON-PROFIT ORGANISATIONS","status":"DG"},{"code":"SIC 0188","value":"COMPUTER AND BUSINESS MACHINE MANUFACTURING","status":"CG"},{"code":"SIC 0531","value":"COMPUTER AND SOFTWARE RETAILING","status":"CS"},{"code":"SIC 0381","value":"COMPUTER CONSULTANCY SERVICES","status":"CG"},{"code":"SIC 0380","value":"COMPUTER MAINTENANCE SERVICES","status":"CG"},{"code":"SIC 0248","value":"COMPUTER WHOLESALING","status":"CG"},{"code":"SIC 0152","value":"CONCRETE PIPE AND BOX CULVERT MANUFACTURING","status":"CG"},{"code":"SIC 0153","value":"CONCRETE PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0151","value":"CONCRETE SLURRY MANUFACTURING","status":"CG"},{"code":"SIC 0223","value":"CONCRETING SERVICES","status":"CG"},{"code":"SIC 0261","value":"CONFECTIONERY AND SOFT DRINK WHOLESALING","status":"CG"},{"code":"SIC 0074","value":"CONFECTIONERY MANUFACTURING","status":"CG"},{"code":"SIC 0473","value":"CONSTRUCTION","status":"DG"},{"code":"SIC 0053","value":"CONSTRUCTION MATERIAL MINING N.E.C.","status":"CG"},{"code":"SIC 0237","value":"CONSTRUCTION SERVICES N.E.C.","status":"CG"},{"code":"SIC 0524","value":"CONSTRUCTION TRADE SERVICES","status":"DG"},{"code":"SIC 0376","value":"CONSULTING ENGINEERING SERVICES","status":"CG"},{"code":"SIC 0395","value":"CONTRACT PACKING SERVICES N.E.C.","status":"CG"},{"code":"SIC 0390","value":"CONTRACT STAFF SERVICES","status":"CG"},{"code":"SIC 0529","value":"CONVENIENCE STORES","status":"CS"},{"code":"SIC 0046","value":"COPPER ORE MINING","status":"CG"},{"code":"SIC 0160","value":"COPPER, SILVER, LEAD AND ZINC SMELTING, REFINING","status":"CG"},{"code":"SIC 0464","value":"CORRECTIVE CENTRES","status":"CG"},{"code":"SIC 0111","value":"CORRUGATED PAPERBOARD CONTAINER MANUFACTURING","status":"CG"},{"code":"SIC 0133","value":"COSMETIC AND TOILETRY PREPARATION MANUFACTURING","status":"CG"},{"code":"SIC 0026","value":"COTTON GINNING","status":"CG"},{"code":"SIC 0024","value":"COTTON GROWING","status":"CG"},{"code":"SIC 0085","value":"COTTON TEXTILE MANUFACTURING","status":"CG"},{"code":"SIC 0349","value":"COURIER SERVICES","status":"CG"},{"code":"SIC 0439","value":"CREATIVE ARTS","status":"CG"},{"code":"SIC 0354","value":"CREDIT UNIONS","status":"CG"},{"code":"SIC 0025","value":"CROP AND PLANT GROWING N.E.C.","status":"CG"},{"code":"SIC 0344","value":"CUSTOMS AGENCY SERVICES","status":"CG"},{"code":"SIC 0004","value":"CUT FLOWER AND FLOWER SEED GROWING","status":"CG"},{"code":"SIC 0016","value":"DAIRY CATTLE FARMING","status":"CG"},{"code":"SIC 0258","value":"DAIRY PRODUCE WHOLESALING","status":"CG"},{"code":"SIC 0065","value":"DAIRY PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0378","value":"DATA PROCESSING SERVICES","status":"CG"},{"code":"SIC 0021","value":"DEER FARMING","status":"CG"},{"code":"SIC 0402","value":"DEFENCE","status":"CG"},{"code":"SIC 0416","value":"DENTAL SERVICES","status":"CG"},{"code":"SIC 0287","value":"DEPARTMENT STORES","status":"CG"},{"code":"SIC 0356","value":"DEPOSIT TAKING FINANCIERS N.E.C.","status":"CG"},{"code":"SIC 0367","value":"DEVELOPERS OR INVESTORS NON-RESIDENTIAL","status":"CW"},{"code":"SIC 0573","value":"DOMESTIC APPLIANCE (NOT COMPUTER) RETAIL","status":"CS"},{"code":"SIC 0294","value":"DOMESTIC APPLIANCE RETAILING","status":"CG"},{"code":"SIC 0293","value":"DOMESTIC HARDWARE AND HOUSEWARE RETAILING","status":"CG"},{"code":"Electric Utilities","value":"Electric Utilities","status":""},{"code":"Electronic Instr. & Controls","value":"Electronic Instr. & Controls","status":""},{"code":"10014","value":"Energy","status":""},{"code":"Energy Industry Group","value":"Energy Industry Group","status":""},{"code":"SIC 0494","value":"EDUCATION","status":"DG"},{"code":"SIC 0192","value":"ELECTRIC CABLE AND WIRE MANUFACTURING","status":"CG"},{"code":"SIC 0194","value":"ELECTRIC LIGHT AND SIGN MANUFACTURING","status":"CG"},{"code":"SIC 0250","value":"ELECTRICAL AND ELECTRONIC EQUIPMENT WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0195","value":"ELECTRICAL EQUIPMENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0228","value":"ELECTRICAL SERVICES","status":"CG"},{"code":"SIC 0520","value":"ELECTRICITY & GAS SUPPLY","status":"DG"},{"code":"SIC 0565","value":"ELECTRICITY DISTRIBUTION","status":"CS"},{"code":"SIC 0516","value":"ELECTRICITY GENERATION","status":"CS"},{"code":"SIC 0213","value":"ELECTRICITY SUPPLY","status":"CG"},{"code":"SIC 0543","value":"ELECTRICITY TRANSMISSION","status":"CS"},{"code":"SIC 0190","value":"ELECTRONIC EQUIPMENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0389","value":"EMPLOYMENT PLACEMENT SERVICES","status":"CG"},{"code":"SIC 0128","value":"EXPLOSIVE MANUFACTURING","status":"CG"},{"code":"Fabricated Plastic & Rubber","value":"Fabricated Plastic & Rubber","status":""},{"code":"Financial","value":"Financial","status":""},{"code":"Fish/Livestock","value":"Fish/Livestock","status":""},{"code":"Food Processing","value":"Food Processing","status":""},{"code":"Footwear","value":"Footwear","status":""},{"code":"Forestry & Wood Products","value":"Forestry & Wood Products","status":""},{"code":"Furniture & Fixtures","value":"Furniture & Fixtures","status":""},{"code":"SIC 0290","value":"FABRIC AND OTHER SOFT GOOD RETAILING","status":"CG"},{"code":"SIC 0175","value":"FABRICATED METAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0106","value":"FABRICATED WOOD MANUFACTURING","status":"CG"},{"code":"SIC 0246","value":"FARM AND CONSTRUCTION MACHINERY WHOLESALING","status":"CG"},{"code":"SIC 0240","value":"FARM PRODUCE AND SUPPLIES WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0123","value":"FERTILISER MANUFACTURING","status":"CG"},{"code":"SIC 0430","value":"FILM AND VIDEO DISTRIBUTION","status":"CG"},{"code":"SIC 0429","value":"FILM AND VIDEO PRODUCTION","status":"CG"},{"code":"SIC 0544","value":"FINANCE","status":"DG"},{"code":"SIC 0363","value":"FINANCIAL ASSET BROKING SERVICES","status":"CG"},{"code":"SIC 0358","value":"FINANCIAL ASSET INVESTORS","status":"CG"},{"code":"SIC 0589","value":"FINANCIAL SERVICES - REAL ESTATE AGENTS","status":"CW"},{"code":"SIC 0564","value":"FINANCIAL SERVICES, PROF CONSULTING SERV","status":"CW"},{"code":"SIC 0490","value":"FINANCIAL SERVICES, PROFESSIONAL CONSULTING SERVICES, REAL ESTATE AGENTS","status":"DG"},{"code":"SIC 0036","value":"FINFISH TRAWLING","status":"CG"},{"code":"SIC 0230","value":"FIRE AND SECURITY SYSTEM SERVICES","status":"CG"},{"code":"SIC 0465","value":"FIRE BRIGADE SERVICES","status":"CG"},{"code":"SIC 0563","value":"FIREARMS AND AMMUNITION WHOLESALING","status":"CG"},{"code":"SIC 0259","value":"FISH WHOLESALING","status":"CG"},{"code":"SIC 0292","value":"FLOOR COVERING RETAILING","status":"CG"},{"code":"SIC 0270","value":"FLOOR COVERING WHOLESALING","status":"CG"},{"code":"SIC 0068","value":"FLOUR MILL PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0304","value":"FLOWER RETAILING","status":"CG"},{"code":"SIC 0077","value":"FOOD MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0198","value":"FOOD PROCESSING MACHINERY MANUFACTURING","status":"CG"},{"code":"SIC 0528","value":"FOOD RETAILING","status":"DG"},{"code":"SIC 0571","value":"FOOD, BEVERAGE","status":"DG"},{"code":"SIC 0511","value":"FOOD, BEVERAGE & TOBACCO MANUFACTURING","status":"DG"},{"code":"SIC 0099","value":"FOOTWEAR MANUFACTURING","status":"CG"},{"code":"SIC 0289","value":"FOOTWEAR RETAILING","status":"CG"},{"code":"SIC 0267","value":"FOOTWEAR WHOLESALING","status":"CG"},{"code":"SIC 0546","value":"FOREIGN BANKS","status":"CS"},{"code":"SIC 0401","value":"FOREIGN GOVERNMENT REPRESENTATION","status":"CG"},{"code":"SIC 0031","value":"FORESTRY","status":"CG"},{"code":"SIC 0509","value":"FORESTRY & LOGGING","status":"DG"},{"code":"SIC 0499","value":"FREE TO AIR TELEVISION SERVICES","status":"CS"},{"code":"SIC 0343","value":"FREIGHT FORWARDING (EXCEPT ROAD)","status":"CG"},{"code":"SIC 0280","value":"FRESH MEAT, FISH AND POULTRY RETAILING","status":"CG"},{"code":"SIC 0066","value":"FRUIT AND VEGETABLE PROCESSING","status":"CG"},{"code":"SIC 0281","value":"FRUIT AND VEGETABLE RETAILING","status":"CG"},{"code":"SIC 0260","value":"FRUIT AND VEGETABLE WHOLESALING","status":"CG"},{"code":"SIC 0010","value":"FRUIT GROWING N.E.C.","status":"CG"},{"code":"SIC 0455","value":"FUNERAL DIRECTORS, CREMATORIA AND CEMETERIES","status":"CG"},{"code":"SIC 0209","value":"FURNITURE MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0291","value":"FURNITURE RETAILING","status":"CG"},{"code":"SIC 0269","value":"FURNITURE WHOLESALING","status":"CG"},{"code":"Gold & Silver","value":"Gold & Silver","status":""},{"code":"SIC 0448","value":"GAMBLING SERVICES N.E.C.","status":"CG"},{"code":"SIC 0303","value":"GARDEN EQUIPMENT RETAILING","status":"CG"},{"code":"SIC 0456","value":"GARDENING SERVICES","status":"CG"},{"code":"SIC 0214","value":"GAS SUPPLY","status":"CG"},{"code":"SIC 0362","value":"GENERAL INSURANCE","status":"CG"},{"code":"SIC 0414","value":"GENERAL PRACTICE MEDICAL SERVICES","status":"CG"},{"code":"SIC 0144","value":"GLASS AND GLASS PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0235","value":"GLAZING SERVICES","status":"CG"},{"code":"SIC 0047","value":"GOLD ORE MINING","status":"CG"},{"code":"SIC 0561","value":"GOVERNMENT ADMINISTRATION","status":"DG"},{"code":"SIC 0011","value":"GRAIN GROWING","status":"CG"},{"code":"SIC 0346","value":"GRAIN STORAGE","status":"CG"},{"code":"SIC 0482","value":"GRAIN-BEEF CATTLE FARMING","status":"CW"},{"code":"SIC 0012","value":"GRAIN-SHEEP AND GRAIN-BEEF CATTLE FARMING","status":"CG"},{"code":"SIC 0006","value":"GRAPE GROWING","status":"CG"},{"code":"SIC 0052","value":"GRAVEL AND SAND QUARRYING","status":"CG"},{"code":"SIC 0264","value":"GROCERY WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0536","value":"GUEST HOUSES, B&BS","status":"CS"},{"code":"Healthcare","value":"Healthcare","status":""},{"code":"Healthcare Facilities","value":"Healthcare Facilities","status":""},{"code":"10017","value":"High Technology","status":""},{"code":"Hotels & Motels","value":"Hotels & Motels","status":""},{"code":"SIC 0457","value":"HAIRDRESSING AND BEAUTY SALONS","status":"CG"},{"code":"SIC 0170","value":"HAND TOOL AND GENERAL HARDWARE MANUFACTURING","status":"CG"},{"code":"SIC 0361","value":"HEALTH INSURANCE","status":"CG"},{"code":"SIC 0495","value":"HEALTH SERVICES","status":"DG"},{"code":"SIC 0423","value":"HEALTH SERVICES N.E.C.","status":"CG"},{"code":"SIC 0492","value":"HEALTH SERVICES, DOCTORS, DENTISTS, VETERINARIANS","status":"DG"},{"code":"SIC 0408","value":"HIGHER EDUCATION","status":"CG"},{"code":"SIC 0537","value":"HOLIDAY FLATS","status":"CS"},{"code":"SIC 0443","value":"HORSE AND DOG RACING","status":"CG"},{"code":"SIC 0020","value":"HORSE FARMING","status":"CG"},{"code":"SIC 0092","value":"HOSIERY MANUFACTURING","status":"CG"},{"code":"SIC 0411","value":"HOSPITALS (EXCEPT PSYCHIATRIC HOSPITALS)","status":"CG"},{"code":"SIC 0539","value":"HOSTELS","status":"CS"},{"code":"SIC 0477","value":"HOTEL/RESORT BUILDING CONSTRUCTION","status":"CG"},{"code":"SIC 0472","value":"HOTEL/RESORT PROPERTY DEVELOPERS OR INVESTORS","status":"CG"},{"code":"SIC 0533","value":"HOTELS","status":"CS"},{"code":"SIC 0217","value":"HOUSE CONSTRUCTION","status":"CG"},{"code":"SIC 0503","value":"HOUSE LENDING - INVESTMENT","status":"CS"},{"code":"SIC 0502","value":"HOUSE LENDING - OWNER OCCUPIED","status":"CS"},{"code":"SIC 0191","value":"HOUSEHOLD APPLIANCE MANUFACTURING","status":"CG"},{"code":"SIC 0268","value":"HOUSEHOLD APPLIANCE WHOLESALING","status":"CG"},{"code":"SIC 0307","value":"HOUSEHOLD EQUIPMENT REPAIR SERVICES (ELECTRICAL)","status":"CG"},{"code":"SIC 0308","value":"HOUSEHOLD EQUIPMENT REPAIR SERVICES N.E.C.","status":"CG"},{"code":"SIC 0271","value":"HOUSEHOLD GOOD WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0030","value":"HUNTING AND TRAPPING","status":"CG"},{"code":"0-3GM55","value":"Industry News: Accounting","status":""},{"code":"0-3GM57","value":"Industry News: Advertising","status":""},{"code":"0-3GM59","value":"Industry News: Aerospace","status":""},{"code":"0-3GM5B","value":"Industry News: Agriculture","status":""},{"code":"0-3GM5D","value":"Industry News: Airlines","status":""},{"code":"0-3GM5F","value":"Industry News: Alcoholic Beverages","status":""},{"code":"0-3GM5H","value":"Industry News: Aluminum","status":""},{"code":"0-3GM5M","value":"Industry News: Apparel Retailing","status":""},{"code":"0-3GM5O","value":"Industry News: Automobile Makers","status":""},{"code":"0-3GM5Q","value":"Industry News: Automotive Suppliers","status":""},{"code":"0-3GM5S","value":"Industry News: Banking & Finance Agencies","status":""},{"code":"0-3GM5U","value":"Industry News: Beverages","status":""},{"code":"0-3GM5W","value":"Industry News: Biotechnology","status":""},{"code":"0-3GM5Y","value":"Industry News: Book Publishing","status":""},{"code":"0-3GM60","value":"Industry News: Broadcasting","status":""},{"code":"0-3GM62","value":"Industry News: Building Supply","status":""},{"code":"0-3GM64","value":"Industry News: Cable Television","status":""},{"code":"0-3GM66","value":"Industry News: Central Banks","status":""},{"code":"0-3GM68","value":"Industry News: Chemicals, Plastics & Rubber","status":""},{"code":"0-3GM6A","value":"Industry News: Coal Mining","status":""},{"code":"0-3GM6C","value":"Industry News: Commercial Banking","status":""},{"code":"0-3GM6E","value":"Industry News: Commercial Fishing","status":""},{"code":"0-3GM6G","value":"Industry News: Computer Makers","status":""},{"code":"0-3GM6I","value":"Industry News: Computer Networks","status":""},{"code":"0-3GMVK","value":"Industry News: Computer Printers","status":""},{"code":"0-3GMVM","value":"Industry News: Construction","status":""},{"code":"0-3GMVO","value":"Industry News: Consulting Services","status":""},{"code":"0-3GMVQ","value":"Industry News: Consumer Electronics Manufacturing","status":""},{"code":"0-3GMVS","value":"Industry News: Cosmetics & Toiletries","status":""},{"code":"0-3GMVU","value":"Industry News: Dairy Products","status":""},{"code":"0-3GMVW","value":"Industry News: Defense","status":""},{"code":"0-3GMVY","value":"Industry News: Development Banks","status":""},{"code":"0-3GMW0","value":"Industry News: Drug Stores","status":""},{"code":"0-3GMW2","value":"Industry News: Electronic Commerce","status":""},{"code":"0-3GMW4","value":"Industry News: Electronics & Appliance Retailing","status":""},{"code":"0-3GMW6","value":"Industry News: Employment Services","status":""},{"code":"0-3GMW8","value":"Industry News: Energy","status":""},{"code":"0-3GMWA","value":"Industry News: Entertainment & Arts","status":""},{"code":"0-3GMWC","value":"Industry News: Environmental Industry","status":""},{"code":"0-3GMWE","value":"Industry News: Fashion Industry","status":""},{"code":"0-3GMWG","value":"Industry News: Fisheries","status":""},{"code":"0-3GMWI","value":"Industry News: Food & Beverage","status":""},{"code":"0-3GMWK","value":"Industry News: Food Products","status":""},{"code":"0-3GMWM","value":"Industry News: Forestry & Logging","status":""},{"code":"0-3GMWO","value":"Industry News: Funeral Industry","status":""},{"code":"0-3GMWQ","value":"Industry News: Health Care","status":""},{"code":"0-3GMWS","value":"Industry News: Heavy Metals","status":""},{"code":"0-3GMWU","value":"Industry News: Hotels, Motels & Resorts","status":""},{"code":"0-3GMWW","value":"Industry News: Household Appliance Manufacturing","status":""},{"code":"0-3GMWY","value":"Industry News: Housewares & Furnishings Retailing","status":""},{"code":"0-3GMX0","value":"Industry News: Insurance","status":""},{"code":"0-3GMX2","value":"Industry News: Internet & WWW","status":""},{"code":"0-3GMX4","value":"Industry News: Investment Banking","status":""},{"code":"0-3GMX6","value":"Industry News: Law Practice","status":""},{"code":"0-3GMX8","value":"Industry News: Life Insurance","status":""},{"code":"0-3GMXA","value":"Industry News: Local Telephone","status":""},{"code":"0-3GMXC","value":"Industry News: Long Distance Telephone","status":""},{"code":"0-3GMXE","value":"Industry News: Magazine Publishing","status":""},{"code":"0-3GMXG","value":"Industry News: Medical Devices","status":""},{"code":"0-3GMXI","value":"Industry News: Mines & Mining","status":""},{"code":"0-3GMXK","value":"Industry News: Music Industry","status":""},{"code":"0-3GMXM","value":"Industry News: New Media","status":""},{"code":"0-3GMXO","value":"Industry News: Newspaper Publishing","status":""},{"code":"0-3GMXQ","value":"Industry News: Office Supplies & Equipment","status":""},{"code":"0-3GMXS","value":"Industry News: Oil & Gas Exploration","status":""},{"code":"0-3GMXU","value":"Industry News: Paper & Packaging","status":""},{"code":"0-3GMXW","value":"Industry News: Pharmaceuticals","status":""},{"code":"0-3GMXY","value":"Industry News: Pollution & Hazardous Waste","status":""},{"code":"0-3GMY0","value":"Industry News: Property & Casualty Insurance","status":""},{"code":"0-3GMY2","value":"Industry News: Publishing & Printing","status":""},{"code":"0-3GMY4","value":"Industry News: Railroads","status":""},{"code":"0-3GMY6","value":"Industry News: Real Estate","status":""},{"code":"0-3GMY8","value":"Industry News: Restaurants","status":""},{"code":"0-3GMYA","value":"Industry News: Retail","status":""},{"code":"0-3GMYC","value":"Industry News: Savings & Loans","status":""},{"code":"0-3GMYE","value":"Industry News: Securities Brokers","status":""},{"code":"0-3GMYG","value":"Industry News: Semiconductors","status":""},{"code":"0-3GMYI","value":"Industry News: Shipbuilding","status":""},{"code":"0-3GMYK","value":"Industry News: Shipping","status":""},{"code":"0-3GMYM","value":"Industry News: Soft Drinks","status":""},{"code":"0-3GMYO","value":"Industry News: Software","status":""},{"code":"0-3GMYQ","value":"Industry News: Steel","status":""},{"code":"0-3GMYS","value":"Industry News: Telecommunications","status":""},{"code":"0-3GMYU","value":"Industry News: Television","status":""},{"code":"0-3GMYW","value":"Industry News: Textiles","status":""},{"code":"0-3GMYY","value":"Industry News: Toys & Games","status":""},{"code":"0-3GMZ0","value":"Industry News: Transportation & Shipping","status":""},{"code":"0-3GMZ2","value":"Industry News: Travel & Leisure","status":""},{"code":"0-3GMZ4","value":"Industry News: Utilities","status":""},{"code":"0-3GMZ6","value":"Industry News: Wireless","status":""},{"code":"Insurance (Accident & Health)","value":"Insurance (Accident & Health)","status":""},{"code":"Insurance (Life)","value":"Insurance (Life)","status":""},{"code":"Insurance (Miscellaneous)","value":"Insurance (Miscellaneous)","status":""},{"code":"Insurance (Prop. & Casualty)","value":"Insurance (Prop. & Casualty)","status":""},{"code":"Investment Services","value":"Investment Services","status":""},{"code":"Iron & Steel","value":"Iron & Steel","status":""},{"code":"SIC 0064","value":"ICE CREAM MANUFACTURING","status":"CG"},{"code":"SIC 0475","value":"INDUSTRIAL BUILDING CONSTRUCTION","status":"CG"},{"code":"SIC 0124","value":"INDUSTRIAL GAS MANUFACTURING","status":"CG"},{"code":"SIC 0203","value":"INDUSTRIAL MACHINERY AND EQUIPMENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0470","value":"INDUSTRIAL PROPERTY DEVELOPERS OR INVESTORS","status":"CG"},{"code":"SIC 0379","value":"INFORMATION STORAGE AND RETRIEVAL SERVICES","status":"CG"},{"code":"SIC 0134","value":"INK MANUFACTURING","status":"CG"},{"code":"SIC 0328","value":"INLAND WATER TRANSPORT","status":"CG"},{"code":"SIC 0127","value":"INORGANIC INDUSTRIAL CHEMICAL MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0553","value":"INSURANCE","status":"DG"},{"code":"SIC 0462","value":"INTEREST GROUPS N.E.C.","status":"CG"},{"code":"SIC 0326","value":"INTERNATIONAL SEA TRANSPORT","status":"CG"},{"code":"SIC 0585","value":"INTERNET SERVICE PROVIDERS","status":"CS"},{"code":"SIC 0549","value":"INVESTMENT","status":"CS"},{"code":"SIC 0558","value":"INVESTMENT ADVICE","status":"CS"},{"code":"SIC 0156","value":"IRON AND STEEL CASTING AND FORGING","status":"CG"},{"code":"SIC 0044","value":"IRON ORE MINING","status":"CG"},{"code":"Jewelry & Silverware","value":"Jewelry & Silverware","status":""},{"code":"SIC 0210","value":"JEWELLERY AND SILVERWARE MANUFACTURING","status":"CG"},{"code":"SIC 0273","value":"JEWELLERY AND WATCH WHOLESALING","status":"CG"},{"code":"SIC 0400","value":"JUSTICE","status":"CG"},{"code":"SIC 0009","value":"KIWI FRUIT GROWING","status":"CG"},{"code":"SIC 0094","value":"KNITTING MILL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"10018","value":"Legal","status":""},{"code":"SIC 0461","value":"LABOUR ASSOCIATIONS","status":"CG"},{"code":"SIC 0236","value":"LANDSCAPING SERVICES","status":"CG"},{"code":"SIC 0452","value":"LAUNDRIES AND DRY-CLEANERS","status":"CG"},{"code":"SIC 0101","value":"LEATHER AND LEATHER SUBSTITUTE PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0100","value":"LEATHER TANNING AND FUR DRESSING","status":"CG"},{"code":"SIC 0577","value":"LEGAL & ACCOUNTING SERVICES","status":"DG"},{"code":"SIC 0382","value":"LEGAL SERVICES","status":"CG"},{"code":"SIC 0434","value":"LIBRARIES","status":"CG"},{"code":"SIC 0500","value":"LIBRARIES, MUSEUMS & THE ARTS","status":"DG"},{"code":"SIC 0359","value":"LIFE INSURANCE","status":"CG"},{"code":"SIC 0554","value":"LIFE INSURANCE & SUPERANNUATION","status":"CS"},{"code":"SIC 0200","value":"LIFTING AND MATERIAL HANDLING EQUIPMENT MANUFACTURING","status":"CG"},{"code":"SIC 0038","value":"LINE FISHING","status":"CG"},{"code":"SIC 0282","value":"LIQUOR RETAILING","status":"CG"},{"code":"SIC 0262","value":"LIQUOR WHOLESALING","status":"CG"},{"code":"SIC 0022","value":"LIVESTOCK FARMING N.E.C.","status":"CG"},{"code":"SIC 0399","value":"LOCAL GOVERNMENT ADMINISTRATION","status":"CG"},{"code":"SIC 0102","value":"LOG SAWMILLING","status":"CG"},{"code":"SIC 0032","value":"LOGGING","status":"CG"},{"code":"SIC 0322","value":"LONG DISTANCE BUS TRANSPORT","status":"CG"},{"code":"SIC 0446","value":"LOTTERIES","status":"CG"},{"code":"Major Drugs","value":"Major Drugs","status":""},{"code":"Medical Equipment & Supplies","value":"Medical Equipment & Supplies","status":""},{"code":"Metal Mining","value":"Metal Mining","status":""},{"code":"Misc. Capital Goods","value":"Misc. Capital Goods","status":""},{"code":"Misc. Fabricated Products","value":"Misc. Fabricated Products","status":""},{"code":"Misc. Financial Services","value":"Misc. Financial Services","status":""},{"code":"Misc. Transportation","value":"Misc. Transportation","status":""},{"code":"Mobile Homes & RVs","value":"Mobile Homes & RVs","status":""},{"code":"Money Center Banks","value":"Money Center Banks","status":""},{"code":"Motion Pictures","value":"Motion Pictures","status":""},{"code":"SIC 0199","value":"MACHINE TOOL AND PART MANUFACTURING","status":"CG"},{"code":"SIC 0518","value":"MACHINERY & EQUIPMENT MANUFACTURING","status":"DG"},{"code":"SIC 0526","value":"MACHINERY & MOTOR VEHICLE WHOLESALING","status":"DG"},{"code":"SIC 0251","value":"MACHINERY AND EQUIPMENT WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0088","value":"MADE-UP TEXTILE PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0484","value":"MANUFACTURING","status":"DG"},{"code":"SIC 0212","value":"MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0300","value":"MARINE EQUIPMENT RETAILING","status":"CG"},{"code":"SIC 0039","value":"MARINE FISHING N.E.C.","status":"CG"},{"code":"SIC 0386","value":"MARKET RESEARCH SERVICES","status":"CG"},{"code":"SIC 0208","value":"MATTRESS MANUFACTURING (EXCEPT RUBBER)","status":"CG"},{"code":"SIC 0060","value":"MEAT PROCESSING","status":"CG"},{"code":"SIC 0256","value":"MEAT WHOLESALING","status":"CG"},{"code":"SIC 0186","value":"MEDICAL AND SURGICAL EQUIPMENT MANUFACTURING","status":"CG"},{"code":"SIC 0130","value":"MEDICINAL AND PHARMACEUTICAL PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0095","value":"MEN'S AND BOYS' WEAR MANUFACTURING","status":"CG"},{"code":"SIC 0547","value":"MERCHANT BANKS","status":"CS"},{"code":"SIC 0242","value":"METAL AND MINERAL WHOLESALING","status":"CG"},{"code":"SIC 0173","value":"METAL COATING AND FINISHING","status":"CG"},{"code":"SIC 0168","value":"METAL CONTAINER MANUFACTURING","status":"CG"},{"code":"SIC 0580","value":"METAL ORE MINING","status":"DG"},{"code":"SIC 0051","value":"METAL ORE MINING N.E.C.","status":"CG"},{"code":"SIC 0517","value":"METAL PRODUCT MANUFACTURING","status":"DG"},{"code":"SIC 0063","value":"MILK AND CREAM PROCESSING","status":"CG"},{"code":"SIC 0285","value":"MILK VENDING","status":"CG"},{"code":"SIC 0057","value":"MINERAL EXPLORATION (OWN ACCOUNT)","status":"CG"},{"code":"SIC 0058","value":"MINERAL EXPLORATION SERVICES","status":"CG"},{"code":"SIC 0048","value":"MINERAL SAND MINING","status":"CG"},{"code":"SIC 0197","value":"MINING AND CONSTRUCTION MACHINERY MANUFACTURING","status":"CG"},{"code":"SIC 0483","value":"MINING AND SERVICES TO MINING INDUSTRY","status":"DG"},{"code":"SIC 0496","value":"MINING N.E.C.","status":"DG"},{"code":"SIC 0582","value":"MOBILE TELECOMMUNICATIONS CARRIERS","status":"CS"},{"code":"SIC 0566","value":"MONEY CHANGING SERVICE (NONBANK)","status":"CG"},{"code":"SIC 0355","value":"MONEY MARKET DEALERS","status":"CG"},{"code":"SIC 0557","value":"MORTGAGE BROKERS","status":"CS"},{"code":"SIC 0535","value":"MOTELS","status":"CS"},{"code":"SIC 0431","value":"MOTION PICTURE EXHIBITION","status":"CG"},{"code":"SIC 0498","value":"MOTION PICTURE, RADIO & TELEVISION","status":"DG"},{"code":"SIC 0310","value":"MOTOR CYCLE DEALING","status":"CG"},{"code":"SIC 0177","value":"MOTOR VEHICLE BODY MANUFACTURING","status":"CG"},{"code":"SIC 0255","value":"MOTOR VEHICLE DISMANTLING AND USED PART DEALING","status":"CG"},{"code":"SIC 0370","value":"MOTOR VEHICLE HIRING","status":"CG"},{"code":"SIC 0176","value":"MOTOR VEHICLE MANUFACTURING","status":"CG"},{"code":"SIC 0254","value":"MOTOR VEHICLE NEW PART DEALING","status":"CG"},{"code":"SIC 0583","value":"MOTOR VEHICLE RETAILING & SERVICES","status":"DG"},{"code":"SIC 0435","value":"MUSEUMS","status":"CG"},{"code":"SIC 0438","value":"MUSIC AND THEATRE PRODUCTIONS","status":"CG"},{"code":"Natural Gas Utilities","value":"Natural Gas Utilities","status":""},{"code":"Non-Metallic Mining","value":"Non-Metallic Mining","status":""},{"code":"SIC 0545","value":"NATIONAL AND REGIONAL COMMERCIAL BANKS","status":"CS"},{"code":"SIC 0117","value":"NEWSPAPER PRINTING OR PUBLISHING","status":"CG"},{"code":"SIC 0298","value":"NEWSPAPER, BOOK AND STATIONERY RETAILING","status":"CG"},{"code":"SIC 0049","value":"NICKEL ORE MINING","status":"CG"},{"code":"SIC 0221","value":"NON-BUILDING CONSTRUCTION N.E.C.","status":"CG"},{"code":"SIC 0507","value":"NON-CLASSIFIABLE ECONOMIC UNITS","status":"DG"},{"code":"SIC 0164","value":"NON-FERROUS METAL CASTING","status":"CG"},{"code":"SIC 0163","value":"NON-FERROUS METAL ROLLING, DRAWING, EXTRUDING N.E.C.","status":"CG"},{"code":"SIC 0174","value":"NON-FERROUS PIPE FITTING MANUFACTURING","status":"CG"},{"code":"SIC 0369","value":"NON-FINANCIAL ASSET INVESTORS","status":"CG"},{"code":"SIC 0581","value":"NON-METALLIC MINERAL PRODUCT MANUFACTURE","status":"DG"},{"code":"SIC 0154","value":"NON-METALLIC MINERAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0569","value":"NON-PROFIT ORGNS, CHARITIES","status":"CW"},{"code":"SIC 0219","value":"NON-RESIDENTIAL BUILDING CONSTRUCTION","status":"CG"},{"code":"SIC 0523","value":"NON-RESIDENTIAL C&D - OTHER","status":"CS"},{"code":"SIC 0522","value":"NON-RESIDENTIAL C&D - TOURISM & LEISURE","status":"CS"},{"code":"SIC 0428","value":"NON-RESIDENTIAL CARE SERVICES N.E.C.","status":"CG"},{"code":"SIC 0331","value":"NON-SCHEDULED AIR AND SPACE TRANSPORT","status":"CG"},{"code":"SIC 0413","value":"NURSING HOMES","status":"CG"},{"code":"SIC 0172","value":"NUT, BOLT, SCREW AND RIVET MANUFACTURING","status":"CG"},{"code":"Office Equipment","value":"Office Equipment","status":""},{"code":"Office Supplies","value":"Office Supplies","status":""},{"code":"Oil & Gas - Integrated","value":"Oil & Gas - Integrated","status":""},{"code":"Oil & Gas Operations","value":"Oil & Gas Operations","status":""},{"code":"Oil Well Services & Equipment","value":"Oil Well Services & Equipment","status":""},{"code":"SIC 0478","value":"OFFICE ACCOUNT","status":"CW"},{"code":"SIC 0067","value":"OIL AND FAT MANUFACTURING","status":"CG"},{"code":"SIC 0043","value":"OIL AND GAS EXTRACTION","status":"CG"},{"code":"SIC 0481","value":"OILSEEDS & GRAIN LEGUMES GROWING","status":"CW"},{"code":"SIC 0418","value":"OPTOMETRY AND OPTICAL DISPENSING","status":"CG"},{"code":"SIC 0126","value":"ORGANIC INDUSTRIAL CHEMICAL MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0410","value":"OTHER EDUCATION","status":"CG"},{"code":"SIC 0357","value":"OTHER FINANCIERS","status":"CG"},{"code":"SIC 0519","value":"OTHER MANUFACTURING","status":"DG"},{"code":"SIC 0054","value":"OTHER MINING","status":"CG"},{"code":"SIC 0059","value":"OTHER MINING SERVICES","status":"CG"},{"code":"SIC 0118","value":"OTHER PERIODICAL PUBLISHING","status":"CG"},{"code":"SIC 0449","value":"OTHER RECREATION SERVICES","status":"CG"},{"code":"SIC 0505","value":"OTHER SERVICES","status":"CS"},{"code":"SIC 0586","value":"OTHER TELECOMMUNICATIONS SERVCS IN AUST","status":"CS"},{"code":"SIC 0550","value":"OTHER TRANSPORT","status":"DG"},{"code":"SIC 0371","value":"OTHER TRANSPORT EQUIPMENT LEASING","status":"CG"},{"code":"SIC 0548","value":"OWNER OCCUPIED","status":"CS"},{"code":"Paper & Paper Products","value":"Paper & Paper Products","status":""},{"code":"Personal & Household Prods.","value":"Personal & Household Prods.","status":""},{"code":"Personal Services","value":"Personal Services","status":""},{"code":"Photography","value":"Photography","status":""},{"code":"Printing & Publishing","value":"Printing & Publishing","status":""},{"code":"Printing Services","value":"Printing Services","status":""},{"code":"10011","value":"Public Administration","status":""},{"code":"SIC 0129","value":"PAINT MANUFACTURING","status":"CG"},{"code":"SIC 0234","value":"PAINTING AND DECORATING SERVICES","status":"CG"},{"code":"SIC 0112","value":"PAPER BAG AND SACK MANUFACTURING","status":"CG"},{"code":"SIC 0113","value":"PAPER PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0276","value":"PAPER PRODUCT WHOLESALING","status":"CG"},{"code":"SIC 0114","value":"PAPER STATIONERY MANUFACTURING","status":"CG"},{"code":"SIC 0334","value":"PARKING SERVICES","status":"CG"},{"code":"SIC 0417","value":"PATHOLOGY SERVICES","status":"CG"},{"code":"SIC 0441","value":"PERFORMING ARTS VENUES","status":"CG"},{"code":"SIC 0530","value":"PERSONAL & HOUSEHOLD GOODS RETAILING","status":"DG"},{"code":"SIC 0527","value":"PERSONAL & HOUSEHOLD GOODS WHOLESALING","status":"DG"},{"code":"SIC 0451","value":"PERSONAL AND HOUSEHOLD GOODS HIRING N.E.C.","status":"CG"},{"code":"SIC 0504","value":"PERSONAL LENDING - SECURED","status":"CS"},{"code":"SIC 0591","value":"PERSONAL LENDING - SECURED (INDIVIDUAL)","status":"CS"},{"code":"SIC 0506","value":"PERSONAL LENDING - UNSECURED","status":"CS"},{"code":"SIC 0592","value":"PERSONAL LENDING - UNSECURED (INDIVIDUAL)","status":"CS"},{"code":"SIC 0588","value":"PERSONAL SERVICES","status":"DG"},{"code":"SIC 0458","value":"PERSONAL SERVICES N.E.C.","status":"CG"},{"code":"SIC 0393","value":"PEST CONTROL SERVICES","status":"CG"},{"code":"SIC 0131","value":"PESTICIDE MANUFACTURING","status":"CG"},{"code":"SIC 0515","value":"PETROL/COAL/CHEMICAL & ASSOC. PRODUCTS","status":"DG"},{"code":"SIC 0122","value":"PETROLEUM AND COAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0055","value":"PETROLEUM EXPLORATION (OWN ACCOUNT)","status":"CG"},{"code":"SIC 0056","value":"PETROLEUM EXPLORATION SERVICES","status":"CG"},{"code":"SIC 0241","value":"PETROLEUM PRODUCT WHOLESALING","status":"CG"},{"code":"SIC 0121","value":"PETROLEUM REFINING","status":"CG"},{"code":"SIC 0277","value":"PHARMACEUTICAL AND TOILETRY WHOLESALING","status":"CG"},{"code":"SIC 0301","value":"PHARMACEUTICAL, COSMETIC AND TOILETRY RETAILING","status":"CG"},{"code":"SIC 0185","value":"PHOTOGRAPHIC AND OPTICAL GOOD MANUFACTURING","status":"CG"},{"code":"SIC 0299","value":"PHOTOGRAPHIC EQUIPMENT RETAILING","status":"CG"},{"code":"SIC 0272","value":"PHOTOGRAPHIC EQUIPMENT WHOLESALING","status":"CG"},{"code":"SIC 0453","value":"PHOTOGRAPHIC FILM PROCESSING","status":"CG"},{"code":"SIC 0454","value":"PHOTOGRAPHIC STUDIOS","status":"CG"},{"code":"SIC 0421","value":"PHYSIOTHERAPY SERVICES","status":"CG"},{"code":"SIC 0019","value":"PIG FARMING","status":"CG"},{"code":"SIC 0332","value":"PIPELINE TRANSPORT","status":"CG"},{"code":"SIC 0372","value":"PLANT HIRING OR LEASING","status":"CG"},{"code":"SIC 0003","value":"PLANT NURSERIES","status":"CG"},{"code":"SIC 0150","value":"PLASTER PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0231","value":"PLASTERING AND CEILING SERVICES","status":"CG"},{"code":"SIC 0140","value":"PLASTIC BAG AND FILM MANUFACTURING","status":"CG"},{"code":"SIC 0138","value":"PLASTIC BLOW MOULDED PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0139","value":"PLASTIC EXTRUDED PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0142","value":"PLASTIC FOAM PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0143","value":"PLASTIC INJECTION MOULDED PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0141","value":"PLASTIC PRODUCT RIGID FIBRE REINFORCED MANUFACTURING","status":"CG"},{"code":"SIC 0227","value":"PLUMBING SERVICES","status":"CG"},{"code":"SIC 0105","value":"PLYWOOD AND VENEER MANUFACTURING","status":"CG"},{"code":"SIC 0463","value":"POLICE SERVICES","status":"CG"},{"code":"SIC 0338","value":"PORT OPERATORS","status":"CG"},{"code":"SIC 0348","value":"POSTAL SERVICES","status":"CG"},{"code":"SIC 0257","value":"POULTRY AND SMALLGOOD WHOLESALING","status":"CG"},{"code":"SIC 0018","value":"POULTRY FARMING (EGGS)","status":"CG"},{"code":"SIC 0017","value":"POULTRY FARMING (MEAT)","status":"CG"},{"code":"SIC 0061","value":"POULTRY PROCESSING","status":"CG"},{"code":"SIC 0035","value":"PRAWN FISHING","status":"CG"},{"code":"SIC 0205","value":"PREFABRICATED BUILDING MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0204","value":"PREFABRICATED METAL BUILDING MANUFACTURING","status":"CG"},{"code":"SIC 0076","value":"PREPARED ANIMAL AND BIRD FEED MANUFACTURING","status":"CG"},{"code":"SIC 0403","value":"PRESCHOOL EDUCATION","status":"CG"},{"code":"SIC 0404","value":"PRIMARY EDUCATION","status":"CG"},{"code":"SIC 0115","value":"PRINTING","status":"CG"},{"code":"SIC 0514","value":"PRINTING, PUBLISHING/RECORD MANUFACTURE","status":"DG"},{"code":"SIC 0467","value":"PRIVATE HOUSEHOLDS EMPLOYING STAFF","status":"CG"},{"code":"SIC 0187","value":"PROFESSIONAL AND SCIENTIFIC EQUIPMENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0247","value":"PROFESSIONAL EQUIPMENT WHOLESALING","status":"CG"},{"code":"SIC 0508","value":"PROPERTY INVESTMENT AND DEVELOPMENT - OT","status":"CS"},{"code":"SIC 0559","value":"PROPERTY SERVICES","status":"DG"},{"code":"SIC 0412","value":"PSYCHIATRIC HOSPITALS","status":"CG"},{"code":"SIC 0318","value":"PUBS, TAVERNS AND BARS","status":"CG"},{"code":"SIC 0109","value":"PULP, PAPER AND PAPERBOARD MANUFACTURING","status":"CG"},{"code":"SIC 0201","value":"PUMP AND COMPRESSOR MANUFACTURING","status":"CG"},{"code":"Railroads","value":"Railroads","status":""},{"code":"Real Estate Operations","value":"Real Estate Operations","status":""},{"code":"Recreational Activities","value":"Recreational Activities","status":""},{"code":"Recreational Products","value":"Recreational Products","status":""},{"code":"Regional Banks","value":"Regional Banks","status":""},{"code":"Rental & Leasing","value":"Rental & Leasing","status":""},{"code":"Restaurants","value":"Restaurants","status":""},{"code":"Retail (Apparel)","value":"Retail (Apparel)","status":""},{"code":"Retail (Catalog & Mail Order)","value":"Retail (Catalog & Mail Order)","status":""},{"code":"Retail (Department & Discount)","value":"Retail (Department & Discount)","status":""},{"code":"Retail (Drugs)","value":"Retail (Drugs)","status":""},{"code":"Retail (Grocery)","value":"Retail (Grocery)","status":""},{"code":"Retail (Home Improvement)","value":"Retail (Home Improvement)","status":""},{"code":"Retail (Specialty)","value":"Retail (Specialty)","status":""},{"code":"Retail (Technology)","value":"Retail (Technology)","status":""},{"code":"SIC 0432","value":"RADIO SERVICES","status":"CG"},{"code":"SIC 0325","value":"RAIL TRANSPORT","status":"CG"},{"code":"SIC 0182","value":"RAILWAY EQUIPMENT MANUFACTURING","status":"CG"},{"code":"SIC 0368","value":"REAL ESTATE AGENTS/PROPRIETOR STRATA PLAN","status":"CG"},{"code":"SIC 0120","value":"RECORDED MEDIA MANUFACTURING AND PUBLISHING","status":"CG"},{"code":"SIC 0295","value":"RECORDED MUSIC RETAILING","status":"CG"},{"code":"SIC 0437","value":"RECREATIONAL PARKS AND GARDENS","status":"CG"},{"code":"SIC 0493","value":"RECREATIONAL, HOSPITALITY, ENTERTAINMENT","status":"DG"},{"code":"SIC 0459","value":"RELIGIOUS ORGANISATIONS","status":"CG"},{"code":"SIC 0218","value":"RESIDENTIAL BUILDING CONSTRUCTION N.E.C.","status":"CG"},{"code":"SIC 0427","value":"RESIDENTIAL CARE SERVICES N.E.C.","status":"CG"},{"code":"SIC 0469","value":"RESIDENTIAL PROPERTY DEVELOPERS","status":"CG"},{"code":"SIC 0366","value":"RESIDENTIAL PROPERTY OPERATORS","status":"CG"},{"code":"SIC 0476","value":"RETAIL BUILDING CONSTRUCTION","status":"CG"},{"code":"SIC 0471","value":"RETAIL PROPERTY DEVELOPERS OR INVESTORS","status":"CG"},{"code":"SIC 0306","value":"RETAILING N.E.C.","status":"CG"},{"code":"SIC 0220","value":"ROAD AND BRIDGE CONSTRUCTION","status":"CG"},{"code":"SIC 0342","value":"ROAD FREIGHT FORWARDING","status":"CG"},{"code":"SIC 0321","value":"ROAD FREIGHT TRANSPORT","status":"CG"},{"code":"SIC 0034","value":"ROCK LOBSTER FISHING","status":"CG"},{"code":"SIC 0225","value":"ROOFING SERVICES","status":"CG"},{"code":"SIC 0090","value":"ROPE, CORDAGE AND TWINE MANUFACTURING","status":"CG"},{"code":"SIC 0137","value":"RUBBER PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0136","value":"RUBBER TYRE MANUFACTURING","status":"CG"},{"code":"S&Ls/Savings Banks","value":"S&Ls/Savings Banks","status":""},{"code":"Schools","value":"Schools","status":""},{"code":"Scientific & Technical Instr.","value":"Scientific & Technical Instr.","status":""},{"code":"Security Systems & Services","value":"Security Systems & Services","status":""},{"code":"Semiconductors","value":"Semiconductors","status":""},{"code":"10012","value":"Services","status":""},{"code":"Services Industry Group","value":"Services Industry Group","status":""},{"code":"Software & Programming","value":"Software & Programming","status":""},{"code":"SIC 0330","value":"SCHEDULED DOMESTIC AIR TRANSPORT","status":"CG"},{"code":"SIC 0329","value":"SCHEDULED INTERNATIONAL AIR TRANSPORT","status":"CG"},{"code":"SIC 0373","value":"SCIENTIFIC RESEARCH","status":"CG"},{"code":"SIC 0075","value":"SEAFOOD PROCESSING","status":"CG"},{"code":"SIC 0405","value":"SECONDARY EDUCATION","status":"CG"},{"code":"SIC 0391","value":"SECRETARIAL SERVICES","status":"CG"},{"code":"SIC 0556","value":"SECURITIES BROKERAGE & INVESTMNT BANKING","status":"CS"},{"code":"SIC 0552","value":"SECURITISERS","status":"CS"},{"code":"SIC 0392","value":"SECURITY AND INVESTIGATIVE SERVICES (EXCEPT POLICE)","status":"CG"},{"code":"SIC 0487","value":"SERVICE STATIONS AND MECHANICAL WORKSHOPS","status":"DG"},{"code":"SIC 0534","value":"SERVICED APARTMENTS","status":"CS"},{"code":"SIC 0551","value":"SERVICES TO AGRICULTURE","status":"DG"},{"code":"SIC 0029","value":"SERVICES TO AGRICULTURE N.E.C.","status":"CG"},{"code":"SIC 0340","value":"SERVICES TO AIR TRANSPORT","status":"CG"},{"code":"SIC 0555","value":"SERVICES TO FINANCE & INSURANCE","status":"DG"},{"code":"SIC 0567","value":"SERVICES TO FINANCE & INVESTMENT N.E.C. excl. MONEY CHANGING","status":"CG"},{"code":"SIC 0364","value":"SERVICES TO FINANCE AND INVESTMENT N.E.C.","status":"DG"},{"code":"SIC 0033","value":"SERVICES TO FORESTRY","status":"CG"},{"code":"SIC 0365","value":"SERVICES TO INSURANCE","status":"CG"},{"code":"SIC 0572","value":"SERVICES TO MINING","status":"DG"},{"code":"SIC 0116","value":"SERVICES TO PRINTING","status":"CG"},{"code":"SIC 0335","value":"SERVICES TO ROAD TRANSPORT N.E.C.","status":"CG"},{"code":"SIC 0442","value":"SERVICES TO THE ARTS N.E.C.","status":"CG"},{"code":"SIC 0574","value":"SERVICES TO TRANSPORT","status":"DG"},{"code":"SIC 0345","value":"SERVICES TO TRANSPORT N.E.C.","status":"CG"},{"code":"SIC 0339","value":"SERVICES TO WATER TRANSPORT N.E.C.","status":"CG"},{"code":"SIC 0216","value":"SEWERAGE AND DRAINAGE SERVICES","status":"CG"},{"code":"SIC 0027","value":"SHEARING SERVICES","status":"CG"},{"code":"SIC 0014","value":"SHEEP FARMING","status":"CG"},{"code":"SIC 0013","value":"SHEEP-BEEF CATTLE FARMING","status":"CG"},{"code":"SIC 0207","value":"SHEET METAL FURNITURE MANUFACTURING","status":"CG"},{"code":"SIC 0169","value":"SHEET METAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0180","value":"SHIPBUILDING","status":"CG"},{"code":"SIC 0323","value":"SHORT DISTANCE BUS TRANSPORT (INCLUDING TRAMWAY)","status":"CG"},{"code":"SIC 0050","value":"SILVER-LEAD-ZINC ORE MINING","status":"CG"},{"code":"SIC 0222","value":"SITE PREPARATION SERVICES","status":"CG"},{"code":"SIC 0097","value":"SLEEPWEAR, UNDERWEAR AND INFANT CLOTHING MANUFACTURING","status":"CG"},{"code":"SIC 0314","value":"SMASH REPAIRING","status":"CG"},{"code":"SIC 0132","value":"SOAP AND OTHER DETERGENT MANUFACTURING","status":"CG"},{"code":"SIC 0078","value":"SOFT DRINK, CORDIAL AND SYRUP MANUFACTURING","status":"CG"},{"code":"SIC 0110","value":"SOLID PAPERBOARD CONTAINER MANUFACTURING","status":"CG"},{"code":"SIC 0440","value":"SOUND RECORDING STUDIOS","status":"CG"},{"code":"SIC 0407","value":"SPECIAL SCHOOL EDUCATION","status":"CG"},{"code":"SIC 0286","value":"SPECIALISED FOOD RETAILING N.E.C.","status":"CG"},{"code":"SIC 0415","value":"SPECIALIST MEDICAL SERVICES","status":"CG"},{"code":"SIC 0081","value":"SPIRIT MANUFACTURING","status":"CG"},{"code":"SIC 0296","value":"SPORT AND CAMPING EQUIPMENT RETAILING","status":"CG"},{"code":"SIC 0501","value":"SPORTS AND RECREATION","status":"DG"},{"code":"SIC 0445","value":"SPORTS AND SERVICES TO SPORTS N.E.C.","status":"CG"},{"code":"SIC 0444","value":"SPORTS GROUNDS AND FACILITIES N.E.C.","status":"CG"},{"code":"SIC 0171","value":"SPRING AND WIRE PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0037","value":"SQUID JIGGING","status":"CG"},{"code":"SIC 0398","value":"STATE GOVERNMENT ADMINISTRATION","status":"CG"},{"code":"SIC 0157","value":"STEEL PIPE AND TUBE MANUFACTURING","status":"CG"},{"code":"SIC 0336","value":"STEVEDORING","status":"CG"},{"code":"SIC 0008","value":"STONE FRUIT GROWING","status":"CG"},{"code":"SIC 0575","value":"STORAGE","status":"DG"},{"code":"SIC 0347","value":"STORAGE N.E.C.","status":"CG"},{"code":"SIC 0167","value":"STRUCTURAL METAL PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0226","value":"STRUCTURAL STEEL ERECTION SERVICES","status":"CG"},{"code":"SIC 0165","value":"STRUCTURAL STEEL FABRICATING","status":"CG"},{"code":"SIC 0023","value":"SUGAR CANE GROWING","status":"CG"},{"code":"SIC 0073","value":"SUGAR MANUFACTURING","status":"CG"},{"code":"SIC 0479","value":"SUNDRY TEMPORARY ACCOUNT","status":"CW"},{"code":"SIC 0360","value":"SUPERANNUATION FUNDS","status":"CG"},{"code":"SIC 0279","value":"SUPERMARKET AND GROCERY STORES","status":"CG"},{"code":"SIC 0590","value":"SUPERMKT & OTHER GROCERY NON CONVENIENCE","status":"CS"},{"code":"SIC 0375","value":"SURVEYING SERVICES","status":"CG"},{"code":"SIC 0084","value":"SYNTHETIC FIBRE TEXTILE MANUFACTURING","status":"CG"},{"code":"SIC 0125","value":"SYNTHETIC RESIN MANUFACTURING","status":"CG"},{"code":"Technology","value":"Technology","status":""},{"code":"Textiles - Non Apparel","value":"Textiles - Non Apparel","status":""},{"code":"Tires","value":"Tires","status":""},{"code":"Tobacco","value":"Tobacco","status":""},{"code":"0-3GM2Y","value":"Top Business News from AP Online","status":""},{"code":"0-3GM30","value":"Top Political News from AP Online","status":""},{"code":"0-3GM35","value":"Top Sports News from AP Online","status":""},{"code":"0-3GM37","value":"Top Stories from The Daily Telegraph - London","status":""},{"code":"0-3GM39","value":"Top Stories from The Los Angeles Times","status":""},{"code":"0-3GM3B","value":"Top Stories from The National Post - Canada","status":""},{"code":"0-3GM3D","value":"Top Stories from The New York Times","status":""},{"code":"0-3GM3F","value":"Top Stories from The Washington Post","status":""},{"code":"0-3GM3H","value":"Top US News from AP Online","status":""},{"code":"0-3GM3J","value":"Top World News from AP Online","status":""},{"code":"Transportation","value":"Transportation","status":""},{"code":"Trucking","value":"Trucking","status":""},{"code":"SIC 0284","value":"TAKEAWAY FOOD RETAILING","status":"CG"},{"code":"SIC 0324","value":"TAXI AND OTHER ROAD PASSENGER TRANSPORT","status":"CG"},{"code":"SIC 0409","value":"TECHNICAL AND FURTHER EDUCATION","status":"CG"},{"code":"SIC 0377","value":"TECHNICAL SERVICES N.E.C.","status":"CG"},{"code":"SIC 0350","value":"TELECOMMUNICATION SERVICES","status":"CG"},{"code":"SIC 0189","value":"TELECOMMUNICATION, BROADCASTING AND TRANSCEIVING EQUIPMENT MANUFACTURING","status":"CG"},{"code":"SIC 0584","value":"TELECOMMUNICATIONS RESELLERS","status":"CS"},{"code":"SIC 0433","value":"TELEVISION SERVICES","status":"CG"},{"code":"SIC 0087","value":"TEXTILE FINISHING","status":"CG"},{"code":"SIC 0089","value":"TEXTILE FLOOR COVERING MANUFACTURING","status":"CG"},{"code":"SIC 0091","value":"TEXTILE PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0265","value":"TEXTILE PRODUCT WHOLESALING","status":"CG"},{"code":"SIC 0512","value":"TEXTILE, CLOTHING, FOOTWARE & LEISURE","status":"DG"},{"code":"SIC 0233","value":"TILING AND CARPETING SERVICES","status":"CG"},{"code":"SIC 0104","value":"TIMBER RESAWING AND DRESSING","status":"CG"},{"code":"SIC 0244","value":"TIMBER WHOLESALING","status":"CG"},{"code":"SIC 0082","value":"TOBACCO PRODUCT MANUFACTURING","status":"CG"},{"code":"SIC 0263","value":"TOBACCO PRODUCT WHOLESALING","status":"CG"},{"code":"SIC 0562","value":"TOY & SPORTING GOOD WHOLESALING - EXCL. FIREARMS","status":"CG"},{"code":"SIC 0297","value":"TOY AND GAME RETAILING","status":"CG"},{"code":"SIC 0211","value":"TOY AND SPORTING GOOD MANUFACTURING","status":"CG"},{"code":"SIC 0274","value":"TOY AND SPORTING GOOD WHOLESALING","status":"DG"},{"code":"SIC 0311","value":"TRAILER AND CARAVAN DEALING","status":"CG"},{"code":"SIC 0488","value":"TRANSPORT AND STORAGE","status":"DG"},{"code":"SIC 0184","value":"TRANSPORT EQUIPMENT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0333","value":"TRANSPORT N.E.C.","status":"CG"},{"code":"SIC 0341","value":"TRAVEL AGENCY SERVICES","status":"CG"},{"code":"SIC 0315","value":"TYRE RETAILING","status":"CG"},{"code":"Utilities","value":"Utilities","status":""},{"code":"SIC 0001","value":"UNKNOWN","status":"DG"},{"code":"SIC 0485","value":"UTILITIES: ELECTRICTY, GAS AND WATER","status":"DG"},{"code":"SIC 0005","value":"VEGETABLE GROWING","status":"CG"},{"code":"SIC 0424","value":"VETERINARY SERVICES","status":"CG"},{"code":"SIC 0450","value":"VIDEO HIRE OUTLETS","status":"CG"},{"code":"Waste Management Services","value":"Waste Management Services","status":""},{"code":"Water Transportation","value":"Water Transportation","status":""},{"code":"Water Utilities","value":"Water Utilities","status":""},{"code":"SIC 0466","value":"WASTE DISPOSAL SERVICES","status":"CG"},{"code":"SIC 0305","value":"WATCH AND JEWELLERY RETAILING","status":"CG"},{"code":"SIC 0215","value":"WATER SUPPLY","status":"CG"},{"code":"SIC 0521","value":"WATER SUPPLY/SEWERAGE DRAINAGE","status":"DG"},{"code":"SIC 0541","value":"WATER TRANSPORT","status":"DG"},{"code":"SIC 0337","value":"WATER TRANSPORT TERMINALS","status":"CG"},{"code":"SIC 0486","value":"WHOLESALING AND RETAIL TRADE","status":"DG"},{"code":"SIC 0278","value":"WHOLESALING N.E.C.","status":"CG"},{"code":"SIC 0080","value":"WINE MANUFACTURING","status":"CG"},{"code":"SIC 0576","value":"WIRED TELECOMMUNICATION CARRIERS","status":"CS"},{"code":"SIC 0096","value":"WOMEN'S AND GIRLS' WEAR MANUFACTURING","status":"CG"},{"code":"SIC 0513","value":"WOOD & PAPER PRODUCT MANUFACTURING","status":"DG"},{"code":"SIC 0103","value":"WOOD CHIPPING","status":"CG"},{"code":"SIC 0108","value":"WOOD PRODUCT MANUFACTURING N.E.C.","status":"CG"},{"code":"SIC 0206","value":"WOODEN FURNITURE AND UPHOLSTERED SEAT MANUFACTURING","status":"CG"},{"code":"SIC 0107","value":"WOODEN STRUCTURAL COMPONENT MANUFACTURING","status":"CG"},{"code":"SIC 0083","value":"WOOL SCOURING","status":"CG"},{"code":"SIC 0086","value":"WOOL TEXTILE MANUFACTURING","status":"CG"},{"code":"SIC 0238","value":"WOOL WHOLESALING","status":"CG"},{"code":"SIC 0436","value":"ZOOLOGICAL AND BOTANIC GARDENS","status":"CG"}],
+	"role": "hfm"
+  }
+}

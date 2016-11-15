@@ -1,0 +1,14 @@
+<div class="appname-tiles">
+    <label ng-if="vm.groupTitle.length" class="btn-group-title">{{ vm.groupTitle}}<span ng-if="vm.isRequired" class="appname-tiles__mandatory">*</span></label>
+    <gui-tooltip ng-if="vm.isDisabled" position="{{vm.tooltipPosition}}" tooltip-title="{{vm.cmLockedFieldMsg}}" class="appname-tiles__fieldset__icon">
+        <span class="icon icon-size-sm icon-padlock" data-grunticon-embed></span>
+    </gui-tooltip>
+    <ul class="appname-tiles__tiles">
+        <li ng-repeat="item in vm.itemList track by item.keyBoardShortCut" ng-click="selectItem(item)"
+            class="appname-tiles__tiles__line" ng-class="{'appname-tiles__half-tiles__line': vm.multiColumn == 'true'}">
+            <a ng-bind-html="printElement(item)" class="appname-tiles__tiles__line__item"
+               ng-class="{'selected': item.selected}"></a>
+        </li>
+    </ul>
+    <p ng-if="vm.errorMsg && vm.isInvalid" class="alert-form-msg">{{:: vm.errorMsg}}</p>
+</div>

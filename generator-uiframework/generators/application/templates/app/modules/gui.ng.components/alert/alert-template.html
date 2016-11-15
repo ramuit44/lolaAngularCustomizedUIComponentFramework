@@ -1,0 +1,4 @@
+<div ng-class="{'is-closed' : isClosed }" aria-hidden="{{ isClosed }}" class="alert alert-{{ type }}" role="alert">
+	<button ng-if="closeButton" ng-click="closeAlert()" type="button" class="alert-close icon icon-cross" data-grunticon-embed>close</button>
+	<ng-transclude></ng-transclude>
+</div>

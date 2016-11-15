@@ -1,0 +1,54 @@
+<div class="appname-header">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <appname-back-button step="vm.step" class="appname-header__back"></appname-back-button>
+
+            <div class="appname-header__home js-appname-header__home">
+                <div class="appname-header__user-context__home">
+                    <a ng-class="{'disabled':vm.user.currentUserDetails.permissions[vm.user.accessBasedOnPermissions.defaultPreference] && !vm.user.isDelegatedRole}" href="#" class="icon-house icon icon-size-md appname-header__user-context__home__logo-container" ui-sref="home.welcome"></a>
+                </div>
+            </div>
+
+            <div class="symbol symbol-logo-tablet appname-header__logo"></div>
+
+            <div class="appname-header__user-context js-appname-header__user-context">
+                <div class="appname-header__user-context__logout">
+                    <a href="#" class="icon-key icon icon-size-md appname-header__user-context__logout__logo-container" ng-click=""></a>
+                </div>
+            </div>
+
+            <div ng-if="vm.enablePreferences()" class="appname-header__user-context js-appname-header__user-context">
+                <div class="appname-header__user-context__preferences">
+                    <a href="#" class="icon-settings icon icon-size-md appname-header__user-context__preferences__logo-container" ui-sref="home.preferences"></a>
+                </div>
+            </div>
+
+            <div class="appname-header__user-context js-appname-header__user-context hidden-xs">
+                <div class="appname-header__user-context__name">
+                    <div class="appname-header__user-context__name__title-label">
+                        {{:: vm.cmLabels.userName}}&#58;
+                    </div>
+                    <div class="appname-header__user-context__name__title-value">
+                        {{vm.user.loggedInUserDetails.userName}}
+                    </div>
+                </div>
+            </div>
+
+            <div class="appname-header__user-context js-appname-header__user-context hidden-xs" ng-if="vm.maintainPreferences()">
+                <div class="appname-header__user-context__bsb">
+                    <div class="appname-header__user-context__bsb__title">
+                        <span class="appname-header__user-context__bsb__title-label">{{(vm.user.currentUserDetails.brand =='wbc') ? vm.cmLabels.userBsb: vm.cmLabels.branchSuffix}}&#58;</span>
+                        <span>{{vm.user.currentUserDetails.userBsbNumber}}</span>
+                    </div>
+                    <div ng-class="{'visibilityHidden': !vm.user.currentUserDetails.userBranch}" class="appname-header__user-context__bsb__branchName">
+                        {{vm.user.currentUserDetails.userBranch | appnameTitleCase}}&nbsp;{{:: vm.cmLabels.branchSuffix}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

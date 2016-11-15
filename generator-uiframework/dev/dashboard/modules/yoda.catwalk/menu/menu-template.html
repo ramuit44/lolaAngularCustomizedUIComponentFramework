@@ -1,0 +1,23 @@
+<div class="yoda-catwalkMenu _yoda-catwalkMenu">
+	<div class="yoda-catwalkMenu-logo">
+		<a class="yoda-catwalkMenu-logoText" ui-sref="home">Yo:Da</a>
+	</div>
+
+	<nav class="yoda-catwalkMenu-navigation">
+
+		<div class="yoda-catwalkMenu-navigation-dashboard">
+			<a class="yoda-catwalkMenu-navigation-dashboard-item" ui-sref='home' ui-sref-active="is-active">
+				Dashboard
+			</a>
+			<a class="yoda-catwalkMenu-navigation-dashboard-item" ui-sref='coverage' ui-sref-active="is-active">
+				Code coverage
+			</a>
+			<a class="yoda-catwalkMenu-navigation-dashboard-item" ui-sref='dependencies-grah' ui-sref-active="is-active">
+				Dependencies graph
+			</a>
+		</div>
+
+		<yoda-collapse name="{{moduleName}}" ng-repeat="(moduleName, modules) in tree" components="modules.components">
+		</yoda-collapse>
+	</nav>
+</div>

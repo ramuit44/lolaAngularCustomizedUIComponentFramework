@@ -1,0 +1,105 @@
+   @import (reference) "../../appname.app/index.less";
+   .appname-sortable-table-accordion {
+       text-align: center;
+       margin-top: 30px;
+       &__noResults {
+           .wrapper();
+           & &__results {
+               &__title {
+                   font-weight: @font-weight-light;
+                   text-align: left;
+                   font-size: 24px;
+                   font-weight: 300;
+               }
+               margin-top: 0px;
+           }
+       }
+       .caret {
+           display: inline-block;
+           width: 14px;
+           height: auto;
+           text-indent: -99999em;
+           overflow: hidden;
+           color: @color-C;
+           float: left;
+       }
+       .caretUp {
+           border-right: 7px solid transparent;
+           border-left: 7px solid transparent;
+           border-bottom: 8px solid @color-B;
+           border-top: none;
+           border-top-color: @color-C;
+           margin-top: 3px;
+       }
+       .caretDown {
+           border-top: 8px solid @color-B;
+           border-right: 7px solid transparent;
+           border-bottom: none;
+           border-left: 7px solid transparent;
+       }
+       .caretGreyedOut {
+           border-top-color: @color-Border;
+       }
+       .data-table {
+           table-layout: fixed;
+       }
+       & &__title {
+           font-weight: 300;
+           text-align: left;
+           font-size: 24px;
+       }
+       & &__noOfResults {
+           font-size: initial;
+           font-weight: initial;
+       }
+       &__create-new {
+           width: 100%;
+       }
+       &__table {
+           border-radius: 6px;
+           .wrapper();
+           text-align: center;
+           & &__header-col {
+               text-align: center;
+               vertical-align: top;
+               width: 30%;
+           }
+           &__row {
+               cursor: pointer;
+               &__value {
+                   word-wrap: break-word;
+               }
+           }
+       }
+       &__table__body__row-hide-content {
+           display: none;
+           padding: 0;
+           vertical-align: middle;
+           border: 1px solid @color-Border;
+           border-top: none;
+           &:hover {
+               background-color: transparent;
+           }
+       }
+       &__table__body__row-show-content {
+           display: table-row;
+           padding: 0;
+           vertical-align: middle;
+           border: 1px solid @color-Border;
+           border-top: none;
+           &:hover {
+               background-color: transparent;
+           }
+       }
+       &__table__header-col {
+           &__caret-container {
+               vertical-align: middle;
+               display: inline-block;
+               width: 14px;
+               float: left;
+           }
+           &__labels-container {
+               display: inline-block;
+           }
+       }
+   }

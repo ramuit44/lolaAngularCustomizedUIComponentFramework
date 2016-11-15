@@ -1,0 +1,141 @@
+@import (reference) "../../gui.blend/index.less";
+@import (reference) "../../appname.app/index.less";
+.appname-tiles {
+    .btn-group {
+        &-title {
+            .appname-label();
+        }
+    }
+    .disabled {
+        .appname-disabled();
+    }
+    &__mandatory {
+        color: red;
+    }
+    &__fieldset {
+        &__icon {
+            display: inline-block;
+            float: right;
+            margin-top: 4px;
+            .appname-tooltip();
+        }
+    }
+    &__tiles{
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: -12px;
+        margin-right: -12px;
+        &__line {
+            &:after,
+            &:before {
+                content: " ";
+                display: table;
+            }
+            &:after {
+                clear: both;
+            }
+            &:focus {
+                outline: none;
+            }
+            &__item {
+                background-color: @color-H-40;
+                display: inline-block;
+                float: none;
+                line-height: 40px;
+                position: relative;
+                width: 100%;
+                text-align: left;
+                text-decoration: none;
+                border-radius: 2px;
+                padding-right: 48px;
+                padding-left: 52px;
+                border: 1px solid transparent;
+                color:@color-B;
+                &:after {
+                    clear: both;
+                }
+                &:after,
+                &:before {
+                    content: " ";
+                    display: table;
+                }
+                &:hover {
+                    cursor: pointer;
+                    color:@color-B;
+                    background-color: @color-H-40;
+                }
+                &.read-only:hover {
+                    cursor: default;
+                    color: #112932;
+                }
+
+                & div {
+                    width: 40px;
+                    height: 40px;
+                    padding: 11px;
+                    text-align: center;
+                    border-radius: 2px 0 0 2px;
+                    margin-left: -52px;
+                    float: left;
+                    background-color: @color-B;
+                    color: @color-J;
+
+                    & > span {
+                        display: block;
+                        line-height: 16px;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 2px;
+                        border: 1px solid @color-J;
+                        font-size: 12px;
+                    }
+                }
+
+                & span {
+                    float: left;
+                }
+
+                &.selected {
+                    /*&:after {
+                        content: "\e013";
+                        border-radius: 50%;
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        position: absolute;
+                        top: 50%;
+                        right: 12px;
+                        margin-top: -12px;
+                        text-align: center;
+                        background-color: #34a96d;
+                        color: #fff;
+                        font: 400 11px/24px 'Glyphicons Halflings';
+                        -webkit-font-smoothing: antialiased;
+                    }*/
+                    border-color: @color-Success;
+                    & div {
+                        background-color: @color-Success;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        &__half-tiles {
+            &__line {
+                float: left;
+                padding: 0 5px 0 0;
+                width: 50%;
+                max-height: 40px;
+
+                &:nth-child(2n+2) {
+                    padding: 0 0 0 5px;
+                }
+            }
+        }
+    }
+}

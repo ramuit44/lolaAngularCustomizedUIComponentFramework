@@ -1,0 +1,57 @@
+.yoda-collapse {
+	min-height: 45px;
+	overflow: hidden;
+
+	&-header {
+		width: 100%;
+		border: none;
+		border-left: 2px solid transparent;
+		color: #333;
+		font-weight: 700;
+		margin-top: 0;
+		padding: 15px 0 15px 22px;
+		text-align: left;
+		background-color: #fff;
+		z-index: 10;
+		position: relative;
+		-webkit-font-smoothing: antialiased;
+
+		&:focus {
+			background-color: #eee;
+			outline: 0;
+		}
+	}
+
+	&-body {
+		overflow: hidden;
+		transition: all ease-in-out 0.4s;
+		z-index: 5;
+		position: relative;
+
+		&-element {
+			-webkit-font-smoothing: antialiased;
+			text-decoration: none;
+			border-left: 2px solid transparent;
+			color: #333;
+			display: block;
+			font-weight: 400;
+			letter-spacing: 0.1px;
+			padding: 10px 24px 10px 46px;
+			white-space: nowrap;
+			background-color: #fff;
+
+			&:focus,
+			&:hover {
+				display: block;
+				background-color: #eee;
+				outline: 0;
+				color: #333;
+				text-decoration: none;
+			}
+
+			&.is-active {
+				background-color: #eee;
+			}
+		}
+	}
+}

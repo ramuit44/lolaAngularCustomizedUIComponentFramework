@@ -1,0 +1,14 @@
+// Add your dependencies import here
+@import "../gui.blend/index.less";
+
+// Grunt will add an import for every components with an index.less between these tags
+// StartGruntImports
+@import (once) "alert/alert-style.less";
+// EndGruntImports
+
+
+/* display focused element */
+.btn:focus {
+   outline: 2px dotted #000;
+   outline-offset: .5rem;
+}

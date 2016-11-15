@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href=".././app/build/appname.common.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src=".././app/build/appname.common.js"></script>
+
+   <script type="text/javascript">
+      var myApp = angular.module('myApp', ['appname.common.multicomponent']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1 class="body-font"> Directive: Side </h1>
+      <appname-side my-param="{{mock.simple_string.value}}"></appname-side>
+   </main>
+
+</body>
+</html>

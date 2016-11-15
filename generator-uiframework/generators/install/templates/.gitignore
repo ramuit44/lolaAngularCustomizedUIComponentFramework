@@ -1,0 +1,11 @@
+target
+.brackets.json
+.editorconfig
+*.iml
+.idea
+node
+node_modules
+dev/app/build
+coverage
+pages
+data.json

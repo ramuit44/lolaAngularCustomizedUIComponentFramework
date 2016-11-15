@@ -1,0 +1,9 @@
+<div class="yoda-collapse _yoda-collapse" ng-if="!isEmpty(components)">
+	<button ng-click="trigger()" class="yoda-collapse-header">{{name}}</button>
+
+	<div style="margin-top: -{{containerMargin}}px;" class="yoda-collapse-body" aria-hidden="{{!isOpen}}">
+		<a class="yoda-collapse-body-element" ng-repeat="(componentName, data) in components" ui-sref='component({ moduleName: name, componentName : componentName })' ui-sref-active="is-active">
+			{{componentName}}
+		</a>
+	</div>
+<div>

@@ -1,0 +1,16 @@
+{
+    "code": 200,
+    "status": "Success",
+    "data": {
+        "userId": "L000009",
+        "userName": "Bastien Zag",
+        "contactNumber": "0466545678",
+        "userBranch": "Cadenat",
+        "userBsbNumber": "2003",
+        "userBranchId": "",
+        "brand": "WBC",
+        "subBrand": "",
+        "permissions": {
+        }
+    }
+}

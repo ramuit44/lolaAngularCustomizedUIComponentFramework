@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../appFolder/distFolder/moduleName.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../appFolder/distFolder/moduleName.min.js"></script>
+
+   <script type="text/javascript">
+   var myApp = angular.module('myApp', ['moduleName']).controller('MockController', ['$scope', function(scope) {
+      scope.baseUrl = '../../';
+      scope.getTemplateUrl = function() {
+         return scope.baseUrl + 'app/dist/templates/new-template-template.html';
+      };
+   }]);
+   </script>
+
+</head>
+<body ng-app="myApp" ng-controller="MockController">
+
+   <main class="container">
+      <h1> Template: new-template</h1>
+      <ng-include src="getTemplateUrl()"></ng-include>
+   </main>
+
+</body>
+</html>

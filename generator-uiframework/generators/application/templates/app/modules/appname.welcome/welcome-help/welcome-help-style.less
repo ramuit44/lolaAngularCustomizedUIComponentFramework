@@ -1,0 +1,38 @@
+@import (reference) '../../appname.app/variables/index.less';
+
+.appname-welcomeHelp {
+	@container-width: 730px;
+	@button-height: 50px;
+	@button-width: 220px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -66px;
+
+    &__content {
+        padding: 80px 0;
+
+        & &__title {
+            font-weight: 300;
+            font-size: 30px;
+            color: @color-C;
+        }
+
+        & &__subtitle {
+            font-weight: 300;
+            font-size: 36px;
+        }
+
+        & &__actions {
+            margin: 30px 0;
+            &__btn {
+                width: @button-width;
+                height: @button-height;
+                padding: 13px;
+                display: inline-block;
+            }
+        }
+    }
+}

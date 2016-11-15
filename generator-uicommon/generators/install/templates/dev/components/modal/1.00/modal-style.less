@@ -1,0 +1,29 @@
+@import (reference) '../../appname.app/variables/index.less';
+.appname-modal {
+    .modal {
+        //overflow: visible;
+		 border-radius: 6px;
+		 overflow-y: auto;
+		 overflow-x: hidden;
+		 & .modal-header .modal-header-close:focus {
+            outline: none;
+            border: 1px solid @color-B;
+        }
+        & input:focus {
+            outline: none;
+            border: 1px solid @color-B;
+        }
+    }
+    &__header {
+        text-align: left;
+    }
+    &__backdrop {
+        cursor: default;
+    }
+    & &__body {
+        padding: 15px 15px 15px 15px;
+    }
+    & &__footer {
+        padding: 15px;
+    }
+}

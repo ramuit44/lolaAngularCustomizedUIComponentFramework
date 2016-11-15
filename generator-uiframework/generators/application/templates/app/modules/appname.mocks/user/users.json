@@ -1,0 +1,25 @@
+{
+    "code": 200,
+    "status": "Success",
+    "data": {
+        "userId": "L000009",
+        "userName": "John Smith",
+        "contactNumber": "049578672334234",
+        "userBranch": "Port Adelaide",
+        "userBsbNumber": "2003 ",
+        "userBranchId": "",
+        "brand": "wbc",
+        "subBrand": "",
+        "permissions": {
+            "InitiateQuote": true,
+            "EditQuote": true,
+            "ReadOnlyQuote": false,
+            "BrandSwap": true,
+            "SubBrandSwap": false,
+            "MaintainRole": true,
+            "MaintainPreference": true,
+            "DefaultPreference": false
+        },
+        "role": "rf-sbg-lendmgr"
+    }
+}

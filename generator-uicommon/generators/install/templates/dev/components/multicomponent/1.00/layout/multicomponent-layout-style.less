@@ -1,0 +1,27 @@
+@import (reference) '../../../appname.app/variables/index.less';
+.appname-multicomponent {
+
+  // &__element {}
+  // &--modifier {}
+  &-layout {
+    position: relative;
+    text-align: center;
+  }
+  &-top{
+    border: 1px solid @color-B;
+  }
+  &-bottom{
+    border: 1px solid @color-B;
+  }
+  &-side{
+    border: 1px solid @color-B;
+    width: 100px;
+    position: absolute;
+    left: 0;
+  }
+  &-center{
+    border: 1px solid @color-B;
+    height: 100%;
+    margin-left: 100px;
+  }
+}

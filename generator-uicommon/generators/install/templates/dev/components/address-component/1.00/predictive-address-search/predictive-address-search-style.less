@@ -1,0 +1,35 @@
+@import (reference) "../../../gui.blend/index.less";
+@import (reference) "../../../appname.app/index.less";
+.appname-predictive-address-search {
+    .btn-group {
+        &-title {
+            .appname-label();
+        }
+    }
+    .disabled {
+        .appname-disabled();
+    }
+    &__mandatory {
+        color: red;
+    }
+    &__fieldset {
+        &__icon {
+            display: inline-block;
+            float: right;
+            margin-top: 4px;
+            .appname-tooltip();
+        }
+    }
+    .btn-group-item {
+        .btn-group-text.has-warning {
+            border-color: @color-Warning;
+        }
+    }
+    .input-group-addon{
+        width: 36px;
+    }
+
+    & > div{
+        display: block;
+    }
+}

@@ -1,0 +1,13 @@
+<div class="appname-block-buttons">
+    <label ng-if="vm.groupTitle.length" class="btn-group-title">{{ vm.groupTitle}}<span ng-if="vm.isRequired" class="appname-block-buttons__mandatory">*</span></label>
+    <gui-tooltip ng-if="vm.isDisabled" position="{{vm.tooltipPosition}}" tooltip-title="{{vm.cmLockedFieldMsg}}" class="appname-block-buttons__fieldset__icon">
+        <span class="icon icon-size-sm icon-padlock" data-grunticon-embed></span>
+    </gui-tooltip>
+    <div class="btn-group btn-block" ng-class="{'disabled':vm.isDisabled}">
+        <label class="btn-group-item test_appname-block-buttons_label_{{vm.name}}-{{$index + 1}}" ng-repeat="listentry in vm.list">
+            <input tabindex="-1" ng-required="vm.isRequired" class="btn-group-input" type="radio" name="{{vm.name}}" ng-model="vm.model" ng-value="listentry[vm.labelName]?listentry[vm.valueName]:listentry" ng-checked="vm.model === (listentry[vm.labelName]?listentry[vm.valueName]:listentry)">
+            <span ng-class="{'has-warning': vm.isInvalid}" class="btn-group-text btn btn-hero" ng-click="vm.optionChanged($event, $index)" tabindex="0">{{listentry[vm.labelName]?listentry[vm.labelName]:listentry}}</span>
+        </label>
+    </div>
+    <p ng-if="vm.errorMsg && vm.isInvalid" class="alert-form-msg">{{:: vm.errorMsg}}</p>
+</div>

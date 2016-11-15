@@ -1,0 +1,37 @@
+<div class="appname-preferences-form">
+
+    <div class="row appname-preferences-form__row row">
+
+        <div class="col-xs-12 col-sm-3 appname-preferences-form__row__fieldset alert-form" ng-if="vm.isBrandRequired()">
+            <label class="appname-preferences-form__label" for="userPreferenceBrand">{{:: vm.cmLabels.brand}}</label>
+            <appname-dropdown on-change="vm.onBrandChange()" name="userPreferenceBrand" button-default="{{vm.defaultBrand}}" button-model="vm.formData.brand" button-options="vm.brands" label-name="{{vm.listKeyValue.labelName}}" value-name="{{vm.listKeyValue.valueName}}">
+            </appname-dropdown>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 appname-preferences-form__row__fieldset alert-form" ng-if="vm.isRoleRequired()">
+            <label class="appname-preferences-form__label" for="userPreferenceRole">{{:: vm.cmLabels.role}}</label>
+            <appname-dropdown on-change="vm.onRoleChange()" name="userPreferenceRole" button-default="{{vm.defaultRole}}" button-model="vm.formData.role" button-options="vm.roles[vm.roleKey]" label-name="{{vm.listKeyValue.labelName}}" value-name="{{vm.listKeyValue.valueName}}">
+            </appname-dropdown>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 appname-preferences-form__row__fieldset alert-form" ng-class="{'has-warning':vm.isFieldInvalid('bsbNumber')}" ng-if="vm.isBsbRequired()">
+            <div>
+                <label class="appname-preferences-form__label" for="bsbNumber">{{(vm.user.currentUserDetails.brand =='wbc') ? vm.cmLabels.bsb : vm.cmLabels.branch}}</label>
+            </div>
+            <label class="input-group input-group-lg">
+                <span class="input-group-text"></span>
+                <span class="input-group-addon" ng-if="vm.isbsbPrefixDisplayed()">03</span>
+                <input appname-validate required-length="{{vm.validation.bsbNumber.requiredLength}}" validate-pattern="{{vm.validation.bsbNumber.validateRegex}}" placeholder="{{:: vm.cmLabels.placeholder.bsb}}" ng-class="{'full-width' : !(vm.isbsbPrefixDisplayed())}" validate-maxlength="{{vm.validation.bsbNumber.validateMaxlength}}" validate-required="{{vm.validation.bsbNumber.required}}" name="bsbNumber" type="text" class="appname-preferences-form__input-group__input-field input-group-input input-field input-field-lg" ng-model="vm.formData.bsb">
+                <p ng-if="vm.isFieldInvalid('bsbNumber')" class="alert-form-msg">{{:: vm.cmLabels.validation.bsb}}</p>
+            </label>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-3 appname-preferences-form__row__fieldset alert-form" ng-if="vm.isContactNumRequired()" ng-class="{'has-warning':vm.isFieldInvalid('contactNumber')}">
+            <label class="appname-preferences-form__label" for="contactNumber">{{:: vm.cmLabels.contactNum}}</label>
+            <input appname-validate required-length="{{vm.validation.contactNumber.requiredLength}}" validate-pattern="{{vm.validation.contactNumber.validateRegex}}" placeholder="{{:: vm.cmLabels.placeholder.contactNumber}}" validate-required="{{vm.validation.contactNumber.required}}" validate-maxlength="{{vm.validation.contactNumber.validateMaxlength}}" validate-pattern-on-blur="{{vm.validation.contactNumber.validateRegexOnBlur}}" name="contactNumber" type="text" class="input-field input-field-lg" ng-model="vm.formData.contactNumber"></input>
+            <p ng-if="vm.isFieldInvalid('contactNumber')" class="alert-form-msg">{{:: vm.cmLabels.validation.contactNumber}}</p>
+        </div>
+    </div>
+
+</div>

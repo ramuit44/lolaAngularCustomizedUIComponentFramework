@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+   <link rel="stylesheet" href="../../app/dist/gui.ng.components.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+   <script src="../../app/dist/gui.ng.components.js"></script>
+
+   <script type="text/javascript">
+   var myApp = angular.module('myApp', ['gui.ng.components']);
+   </script>
+
+</head>
+<body ng-app="myApp">
+
+   <main class="container">
+      <h1 class="body-font">Alert component</h1>
+      <gui-alert close-button="mock.closeButton.value" type="{{mock.type.value}}" data-is-closed="mock.isClosed.value" data-grunticon-embed>
+         I'm a danger alert.
+      </gui-alert>
+   </main>
+
+</body>
+</html>

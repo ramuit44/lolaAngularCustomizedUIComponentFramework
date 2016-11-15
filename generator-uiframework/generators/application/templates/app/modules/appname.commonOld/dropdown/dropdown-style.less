@@ -1,0 +1,32 @@
+@import (reference) '../../appname.app/variables/index.less';
+.appname-dropdown {
+    &-btn {
+        &-icon {
+            margin-top: -3px;
+            position: absolute;
+        }
+    }
+    & .btn-dropdown.btn-block .btn .btn-dropdown-caret {
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+    & input:focus {
+        outline: none;
+        border: 1px solid @color-B;
+    }
+    & button:focus {
+        outline: none;
+        border: 1px solid @color-B;
+    }
+    & .disabled {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+    & .btn-dropdown {
+        & .dropdown-menu-sm {
+            max-height: 225px;
+            overflow-y: scroll;
+        }
+    }
+}

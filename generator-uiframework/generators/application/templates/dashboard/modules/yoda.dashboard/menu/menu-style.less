@@ -1,0 +1,73 @@
+@import '../theme/colors.less';
+
+.yoda-dashboardMenu {
+	width: 240px;
+
+	&-logo {
+		border-bottom: 1px solid #d7d2cb;
+		background-color: #fff;
+		width: 239px;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		z-index: 1;
+		transition: box-shadow 0.2s;
+		// background-color: @color-green;
+		position: fixed;
+		z-index: 300;
+		height: 56px;
+
+		&Text {
+			font-size: 24px;
+			color: @color-green;
+			display: inline-block;
+			margin: 12px 20px;
+			text-decoration: none;
+			font-family: 'Roboto', sans-serif;
+
+			&:focus,
+			&:visited,
+			&:hover,
+			&:active {
+				color: @color-green;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&-navigation {
+		padding: 62px 0 10px 0;
+		font-size: 13px;
+		overflow: hidden;
+		background-color: #fff;
+
+		&-dashboard {
+			&-item {
+				-webkit-font-smoothing: antialiased;
+				text-decoration: none;
+				border-left: 2px solid transparent;
+				color: #333;
+				display: block;
+				font-weight: 400;
+				letter-spacing: 0.1px;
+				padding: 10px 24px 10px 46px;
+				white-space: nowrap;
+				background-color: #fff;
+
+				&:focus,
+				&:hover {
+					display: block;
+					background-color: #eee;
+					outline: 0;
+					color: #333;
+					text-decoration: none;
+				}
+
+				&.is-active {
+					background-color: #eee;
+				}
+			}
+		}
+	}
+
+}

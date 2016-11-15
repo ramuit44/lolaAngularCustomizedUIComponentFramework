@@ -1,0 +1,31 @@
+<div class="yoda-objectEditor" ng-switch="getType(item)">
+
+	<input ng-switch-when="string" type="text" class="form-control" ng-model="item.value">
+
+	<input ng-switch-when="number" type="number" class="form-control" ng-model="item.value">
+
+	<div ng-switch-when="array">
+		<input ng-repeat="listItem in item.value track by $index" type="text" ng-model="item.value[$index]" class="form-control">
+	</div>
+
+	<label ng-switch-when="object">n/a</label>
+
+	<div ng-switch-when="boolean">
+		<label class="radio yoda-componentParamsTable-table-radio">
+			<input class="radio-input" type="radio" ng-model="item.value" ng-value="true">
+			<span class="radio-text">true</span>
+		</label>
+
+		<label class="radio yoda-componentParamsTable-table-radio">
+			<input class="radio-input" type="radio" ng-model="item.value" ng-value="false">
+			<span class="radio-text">false</span>
+		</label>
+	</div>
+
+	<div ng-switch-when="select" class="input-field-select-wrapper">
+		<select class="input-field-select" name="singleSelect" ng-model="item.value">
+			<option ng-repeat="option in item.options" value="{{option}}">{{option}}</option>
+		</select>
+	</div>
+
+</div>
